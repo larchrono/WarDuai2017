@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: 7567187354240d44c877c9bc8ee05428
+timeCreated: 1501445832
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone Arm L
+    100002: Bone Arm R
+    100004: bone Box01
+    100006: bone Box02
+    100008: bone Box03
+    100010: bone Box04
+    100012: Bone CLAW L
+    100014: Bone CLAW R
+    100016: BONE ROOT
+    100018: Bone_Box17
+    100020: Bone_Box18
+    100022: Bone_Box19
+    100024: Bone_Box20
+    100026: Bone_Box21
+    100028: Bone_Box22
+    100030: Bone_Box23
+    100032: Bone_HEAD
+    100034: Bone_LFLeg05
+    100036: Bone_LFLeg06
+    100038: Bone_LFLeg07
+    100040: Bone_LFLeg09
+    100042: Bone_LFLeg10
+    100044: Bone_LFLeg11
+    100046: Bone_LFLeg12
+    100048: Bone_LFLeg13
+    100050: Bone_LFLeg14
+    100052: Bone_LFLeg15
+    100054: Bone_LFLeg16
+    100056: Bone_LFLeg17
+    100058: BoneTAIL
+    100060: Chest Ref
+    100062: Head - Ref
+    100064: //RootNode
+    100066: Object001
+    100068: Object002
+    100070: Object003
+    100072: Object06
+    100074: 'Origin Ref '
+    100076: Weapon - Ref
+    400000: Bone Arm L
+    400002: Bone Arm R
+    400004: bone Box01
+    400006: bone Box02
+    400008: bone Box03
+    400010: bone Box04
+    400012: Bone CLAW L
+    400014: Bone CLAW R
+    400016: BONE ROOT
+    400018: Bone_Box17
+    400020: Bone_Box18
+    400022: Bone_Box19
+    400024: Bone_Box20
+    400026: Bone_Box21
+    400028: Bone_Box22
+    400030: Bone_Box23
+    400032: Bone_HEAD
+    400034: Bone_LFLeg05
+    400036: Bone_LFLeg06
+    400038: Bone_LFLeg07
+    400040: Bone_LFLeg09
+    400042: Bone_LFLeg10
+    400044: Bone_LFLeg11
+    400046: Bone_LFLeg12
+    400048: Bone_LFLeg13
+    400050: Bone_LFLeg14
+    400052: Bone_LFLeg15
+    400054: Bone_LFLeg16
+    400056: Bone_LFLeg17
+    400058: BoneTAIL
+    400060: Chest Ref
+    400062: Head - Ref
+    400064: //RootNode
+    400066: Object001
+    400068: Object002
+    400070: Object003
+    400072: Object06
+    400074: 'Origin Ref '
+    400076: Weapon - Ref
+    4300000: Object001
+    4300002: Object002
+    4300004: Object003
+    7400000: stand
+    7400002: walk
+    7400004: attack
+    7400006: death
+    7400008: Hit
+    7400010: back
+    9500000: //RootNode
+    13700000: Object001
+    13700002: Object002
+    13700004: Object003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: stand
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONE ROOT
+        weight: 1
+      - path: BONE ROOT/Bone_Box17
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L/Bone CLAW L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R/Bone CLAW R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Head - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Object06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/bone Box01
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14/bone Box02
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Chest Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL/Weapon
+          - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/bone Box04
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17/bone Box03
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONE ROOT
+        weight: 1
+      - path: BONE ROOT/Bone_Box17
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L/Bone CLAW L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R/Bone CLAW R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Head - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Object06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/bone Box01
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14/bone Box02
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Chest Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL/Weapon
+          - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/bone Box04
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17/bone Box03
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 114
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONE ROOT
+        weight: 1
+      - path: BONE ROOT/Bone_Box17
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L/Bone CLAW L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R/Bone CLAW R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Head - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Object06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/bone Box01
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14/bone Box02
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Chest Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL/Weapon
+          - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/bone Box04
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17/bone Box03
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONE ROOT
+        weight: 1
+      - path: BONE ROOT/Bone_Box17
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L/Bone CLAW L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R/Bone CLAW R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Head - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Object06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/bone Box01
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14/bone Box02
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Chest Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL/Weapon
+          - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/bone Box04
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17/bone Box03
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 315
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONE ROOT
+        weight: 1
+      - path: BONE ROOT/Bone_Box17
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L/Bone CLAW L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R/Bone CLAW R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Head - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Object06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/bone Box01
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14/bone Box02
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Chest Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL/Weapon
+          - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/bone Box04
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17/bone Box03
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: back
+      takeName: Take 001
+      firstFrame: 114
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BONE ROOT
+        weight: 1
+      - path: BONE ROOT/Bone_Box17
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm L/Bone CLAW L
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone Arm R/Bone CLAW R
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Head - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_Box23/Bone_HEAD/Object06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/bone Box01
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Bone_LFLeg12/Bone_LFLeg13/Bone_LFLeg14/bone Box02
+        weight: 1
+      - path: BONE ROOT/Bone_Box17/Chest Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_Box19/Bone_Box20/Bone_Box21/Bone_Box22/BoneTAIL/Weapon
+          - Ref
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/bone Box04
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17
+        weight: 1
+      - path: BONE ROOT/Bone_Box18/Bone_LFLeg15/Bone_LFLeg16/Bone_LFLeg17/bone Box03
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: 'Origin Ref '
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

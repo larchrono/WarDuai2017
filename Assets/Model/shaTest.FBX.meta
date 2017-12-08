@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: e60ba802b7a8ff045bacaffa25ccb317
+timeCreated: 1500722674
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackGlow
+    100002: BlizRibbon01
+    100004: Bone_Arm1_L
+    100006: Bone_Arm1_R
+    100008: Bone_Arm2_L
+    100010: Bone_Arm2_R
+    100012: Bone_Chest
+    100014: Bone_chew
+    100016: Bone_Foot_L
+    100018: Bone_Foot_R
+    100020: Bone_Hand_L
+    100022: Bone_Hand_R
+    100024: Bone_Head
+    100026: Bone_Leg1_L
+    100028: Bone_Leg1_R
+    100030: Bone_Leg2_L
+    100032: Bone_Leg2_R
+    100034: Bone_Pelvis
+    100036: Bone_Root
+    100038: ByLarchrono
+    100040: chest ref
+    100042: Collision01
+    100044: Collision02
+    100046: foot left ref
+    100048: foot right ref
+    100050: hand left ref
+    100052: hand right ref
+    100054: head ref
+    100056: Name
+    100058: Obj:SNDXDPAL
+    100060: Object001
+    100062: Object002
+    100064: Object003
+    100066: Object004
+    100068: origin ref
+    100070: overhead ref
+    100072: //RootNode
+    100074: Target001
+    100076: weapon ref
+    400000: BackGlow
+    400002: BlizRibbon01
+    400004: Bone_Arm1_L
+    400006: Bone_Arm1_R
+    400008: Bone_Arm2_L
+    400010: Bone_Arm2_R
+    400012: Bone_Chest
+    400014: Bone_chew
+    400016: Bone_Foot_L
+    400018: Bone_Foot_R
+    400020: Bone_Hand_L
+    400022: Bone_Hand_R
+    400024: Bone_Head
+    400026: Bone_Leg1_L
+    400028: Bone_Leg1_R
+    400030: Bone_Leg2_L
+    400032: Bone_Leg2_R
+    400034: Bone_Pelvis
+    400036: Bone_Root
+    400038: ByLarchrono
+    400040: chest ref
+    400042: Collision01
+    400044: Collision02
+    400046: foot left ref
+    400048: foot right ref
+    400050: hand left ref
+    400052: hand right ref
+    400054: head ref
+    400056: Name
+    400058: Obj:SNDXDPAL
+    400060: Object001
+    400062: Object002
+    400064: Object003
+    400066: Object004
+    400068: origin ref
+    400070: overhead ref
+    400072: //RootNode
+    400074: Target001
+    400076: weapon ref
+    4300000: Object001
+    4300002: Object002
+    4300004: Object003
+    4300006: Object004
+    7400000: Take 001
+    7400002: Take 5566
+    9500000: //RootNode
+    13700000: Object001
+    13700002: Object002
+    13700004: Object003
+    13700006: Object004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1999.9999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BackGlow
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/hand left ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/BlizRibbon01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/hand right
+          ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/weapon ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Bone_chew
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/head ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/chest ref
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/foot left
+          ref
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/foot right
+          ref
+        weight: 1
+      - path: ByLarchrono
+        weight: 1
+      - path: Collision01
+        weight: 1
+      - path: Collision02
+        weight: 1
+      - path: Name
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: origin ref
+        weight: 1
+      - path: overhead ref
+        weight: 1
+      - path: Target001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 5566
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1999.9999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BackGlow
+        weight: 1
+      - path: Bone_Root
+        weight: 1
+      - path: Bone_Root/Bone_Chest
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_L/Bone_Arm2_L/Bone_Hand_L/hand left ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/BlizRibbon01
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/hand right
+          ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Arm1_R/Bone_Arm2_R/Bone_Hand_R/weapon ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/Bone_chew
+        weight: 1
+      - path: Bone_Root/Bone_Chest/Bone_Head/head ref
+        weight: 1
+      - path: Bone_Root/Bone_Chest/chest ref
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_L/Bone_Leg2_L/Bone_Foot_L/foot left
+          ref
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R
+        weight: 1
+      - path: Bone_Root/Bone_Pelvis/Bone_Leg1_R/Bone_Leg2_R/Bone_Foot_R/foot right
+          ref
+        weight: 1
+      - path: ByLarchrono
+        weight: 1
+      - path: Collision01
+        weight: 1
+      - path: Collision02
+        weight: 1
+      - path: Name
+        weight: 1
+      - path: Obj:SNDXDPAL
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: Object003
+        weight: 1
+      - path: Object004
+        weight: 1
+      - path: origin ref
+        weight: 1
+      - path: overhead ref
+        weight: 1
+      - path: Target001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

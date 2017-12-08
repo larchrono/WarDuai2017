@@ -1,0 +1,1152 @@
+fileFormatVersion: 2
+guid: ad0f0b7d370d98d4fbdd29085f0fb56f
+timeCreated: 1502133052
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone Back L Leg
+    100002: Bone Back L Shin
+    100004: Bone Back R Leg
+    100006: Bone Back R Shin
+    100008: Bone Back R Toe
+    100010: Bone Center
+    100012: Bone Front L Leg
+    100014: Bone Front L Shin
+    100016: Bone Front R Leg
+    100018: Bone FrontL Toe
+    100020: Bone Object67
+    100022: Bone Tail 1
+    100024: Bone Tail 2
+    100026: Bone Wolf Neck
+    100028: Bone Wolf Waist
+    100030: Bone_Head
+    100032: Bone_Mesh48
+    100034: Bone_Mesh49
+    100036: //RootNode
+    100038: FurA
+    100040: 'FurB '
+    100042: Jaw
+    100044: Mesh19
+    100046: Mesh20
+    100048: Object030
+    100050: Object04
+    100052: Object05
+    100054: Object27
+    100056: Object28
+    100058: Point001
+    100060: Point002
+    400000: Bone Back L Leg
+    400002: Bone Back L Shin
+    400004: Bone Back R Leg
+    400006: Bone Back R Shin
+    400008: Bone Back R Toe
+    400010: Bone Center
+    400012: Bone Front L Leg
+    400014: Bone Front L Shin
+    400016: Bone Front R Leg
+    400018: Bone FrontL Toe
+    400020: Bone Object67
+    400022: Bone Tail 1
+    400024: Bone Tail 2
+    400026: Bone Wolf Neck
+    400028: Bone Wolf Waist
+    400030: Bone_Head
+    400032: Bone_Mesh48
+    400034: Bone_Mesh49
+    400036: //RootNode
+    400038: FurA
+    400040: 'FurB '
+    400042: Jaw
+    400044: Mesh19
+    400046: Mesh20
+    400048: Object030
+    400050: Object04
+    400052: Object05
+    400054: Object27
+    400056: Object28
+    400058: Point001
+    400060: Point002
+    4300000: Object030
+    7400000: stand
+    7400002: walk
+    7400004: spell,slam
+    7400006: attack
+    7400008: stand-3
+    7400010: attack-2
+    7400012: birth
+    7400014: attack,slam
+    7400016: death
+    7400018: hit
+    7400020: back
+    9500000: //RootNode
+    13700000: Object030
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: stand
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 218
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: spell,slam
+      takeName: Take 001
+      firstFrame: 237
+      lastFrame: 287
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 307
+      lastFrame: 327
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stand-3
+      takeName: Take 001
+      firstFrame: 347
+      lastFrame: 429
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack-2
+      takeName: Take 001
+      firstFrame: 449
+      lastFrame: 469
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: birth
+      takeName: Take 001
+      firstFrame: 489
+      lastFrame: 504
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack,slam
+      takeName: Take 001
+      firstFrame: 524
+      lastFrame: 550
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 570
+      lastFrame: 650
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit
+      takeName: Take 001
+      firstFrame: 580
+      lastFrame: 590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: back
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 218
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Center
+        weight: 1
+      - path: Bone Center/Bone Back L Leg
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin
+        weight: 1
+      - path: Bone Center/Bone Back L Leg/Bone Back L Shin/Bone Object67
+        weight: 1
+      - path: Bone Center/Bone Back R Leg
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin
+        weight: 1
+      - path: Bone Center/Bone Back R Leg/Bone Back R Shin/Bone Back R Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Bone Front L Shin/Bone FrontL
+          Toe
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front L Leg/Mesh19
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Bone_Mesh49/Bone_Mesh48
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone Front R Leg/Mesh20
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object04
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/FurA/Object05
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point001
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Jaw/Point002
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object27
+        weight: 1
+      - path: Bone Center/Bone Wolf Neck/Bone_Head/Object28
+        weight: 1
+      - path: 'Bone Center/Bone Wolf Neck/FurB '
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1
+        weight: 1
+      - path: Bone Center/Bone Wolf Waist/Bone Tail 1/Bone Tail 2
+        weight: 1
+      - path: Object030
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

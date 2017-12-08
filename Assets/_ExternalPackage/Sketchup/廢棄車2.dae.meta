@@ -1,0 +1,1153 @@
+fileFormatVersion: 2
+guid: e24d3400752a7fe4bb191f40f1ae54df
+timeCreated: 1502130892
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: car_seat
+    100002: Component_1
+    100004: Component_1 1
+    100006: Component_1 2
+    100008: Component_2
+    100010: Component_3
+    100012: Component_3 1
+    100014: Component_4
+    100016: Component_5
+    100018: Component_5 1
+    100020: Component_5 2
+    100022: Component_5 3
+    100024: Component_5 4
+    100026: Component_5 5
+    100028: group_0
+    100030: group_1
+    100032: group_10
+    100034: group_11
+    100036: group_12
+    100038: Group_123
+    100040: Group_123 1
+    100042: Group_129
+    100044: Group_129 1
+    100046: group_13
+    100048: group_14
+    100050: Group_15
+    100052: group_15
+    100054: Group_15 1
+    100056: group_16
+    100058: group_17
+    100060: group_18
+    100062: group_19
+    100064: Group_2
+    100066: group_2
+    100068: Group_2 1
+    100070: group_20
+    100072: group_21
+    100074: Group_22
+    100076: group_22
+    100078: Group_22 1
+    100080: group_23
+    100082: group_24
+    100084: group_25
+    100086: Group_26
+    100088: group_26
+    100090: Group_26 1
+    100092: group_27
+    100094: group_27 1
+    100096: group_28
+    100098: group_29
+    100100: Group_3
+    100102: group_3
+    100104: Group_3 1
+    100106: group_30
+    100108: group_31
+    100110: group_32
+    100112: Group_33
+    100114: group_33
+    100116: Group_33 1
+    100118: group_34
+    100120: group_35
+    100122: group_36
+    100124: group_37
+    100126: group_38
+    100128: group_39
+    100130: group_4
+    100132: group_40
+    100134: group_41
+    100136: group_42
+    100138: group_43
+    100140: group_44
+    100142: group_45
+    100144: group_46
+    100146: group_47
+    100148: group_48
+    100150: group_49
+    100152: group_5
+    100154: group_50
+    100156: group_51
+    100158: group_52
+    100160: group_53
+    100162: group_54
+    100164: Group_55
+    100166: group_55
+    100168: Group_55 1
+    100170: group_56
+    100172: group_57
+    100174: group_58
+    100176: group_59
+    100178: group_6
+    100180: group_60
+    100182: group_60 1
+    100184: group_61
+    100186: group_61 1
+    100188: group_62
+    100190: group_63
+    100192: Group_64
+    100194: group_64
+    100196: Group_64 1
+    100198: group_65
+    100200: group_65 1
+    100202: group_66
+    100204: group_66 1
+    100206: group_67
+    100208: group_67 1
+    100210: group_68
+    100212: group_68 1
+    100214: group_69
+    100216: group_69 1
+    100218: group_7
+    100220: group_70
+    100222: group_70 1
+    100224: group_71
+    100226: group_71 1
+    100228: group_72
+    100230: group_73
+    100232: Group_8
+    100234: group_8
+    100236: Group_8 1
+    100238: Group_83
+    100240: Group_83 1
+    100242: group_9
+    100244: ID1056
+    100246: ID1103
+    100248: ID1152
+    100250: ID1160
+    100252: ID1227
+    100254: ID1262
+    100256: ID1280
+    100258: ID129
+    100260: ID1298
+    100262: ID135
+    100264: ID1360
+    100266: ID1373
+    100268: ID1387
+    100270: ID141
+    100272: ID1414
+    100274: ID1422
+    100276: ID1436
+    100278: ID1465
+    100280: ID147
+    100282: ID1473
+    100284: ID1516
+    100286: ID1524
+    100288: ID153
+    100290: ID1557
+    100292: ID1565
+    100294: ID1587
+    100296: ID159
+    100298: ID1605
+    100300: ID1619
+    100302: ID1625
+    100304: ID1629
+    100306: ID1633
+    100308: ID1637
+    100310: ID1641
+    100312: ID1645
+    100314: ID1649
+    100316: ID165
+    100318: ID171
+    100320: ID190
+    100322: ID219
+    100324: ID254
+    100326: ID301
+    100328: ID370
+    100330: ID39
+    100332: ID436
+    100334: ID436 1
+    100336: ID436 2
+    100338: ID444
+    100340: ID444 1
+    100342: ID444 2
+    100344: ID460
+    100346: ID47
+    100348: ID487
+    100350: ID495
+    100352: ID503
+    100354: ID53
+    100356: ID530
+    100358: ID543
+    100360: ID561
+    100362: ID569
+    100364: ID585
+    100366: ID593
+    100368: ID635
+    100370: ID648
+    100372: ID656
+    100374: ID664
+    100376: ID672
+    100378: ID680
+    100380: ID688
+    100382: ID696
+    100384: ID704
+    100386: ID712
+    100388: ID720
+    100390: ID728
+    100392: ID736
+    100394: ID80
+    100396: ID816
+    100398: ID824
+    100400: ID842
+    100402: ID848
+    100404: ID854
+    100406: ID86
+    100408: ID860
+    100410: ID866
+    100412: ID872
+    100414: ID878
+    100416: ID884
+    100418: ID890
+    100420: ID896
+    100422: ID902
+    100424: ID908
+    100426: ID912
+    100428: ID916
+    100430: ID920
+    100432: ID932
+    100434: ID940
+    100436: ID948
+    100438: ID956
+    100440: ID964
+    100442: ID972
+    100444: ID980
+    100446: instance_0
+    100448: instance_1
+    100450: instance_10
+    100452: instance_11
+    100454: instance_12
+    100456: instance_13
+    100458: instance_14
+    100460: instance_15
+    100462: instance_16
+    100464: instance_17
+    100466: instance_18
+    100468: instance_19
+    100470: instance_2
+    100472: instance_20
+    100474: instance_21
+    100476: instance_22
+    100478: instance_23
+    100480: instance_23 1
+    100482: instance_24
+    100484: instance_25
+    100486: instance_26
+    100488: instance_26 1
+    100490: instance_27
+    100492: instance_28
+    100494: instance_29
+    100496: instance_3
+    100498: instance_30
+    100500: instance_31
+    100502: instance_32
+    100504: instance_33
+    100506: instance_34
+    100508: instance_35
+    100510: instance_36
+    100512: instance_4
+    100514: instance_5
+    100516: instance_6
+    100518: instance_7
+    100520: instance_8
+    100522: instance_9
+    100524: Logo
+    100526: skp_camera_Last_Saved_SketchUp_View
+    100528: //RootNode
+    400000: car_seat
+    400002: Component_1
+    400004: Component_1 1
+    400006: Component_1 2
+    400008: Component_2
+    400010: Component_3
+    400012: Component_3 1
+    400014: Component_4
+    400016: Component_5
+    400018: Component_5 1
+    400020: Component_5 2
+    400022: Component_5 3
+    400024: Component_5 4
+    400026: Component_5 5
+    400028: group_0
+    400030: group_1
+    400032: group_10
+    400034: group_11
+    400036: group_12
+    400038: Group_123
+    400040: Group_123 1
+    400042: Group_129
+    400044: Group_129 1
+    400046: group_13
+    400048: group_14
+    400050: Group_15
+    400052: group_15
+    400054: Group_15 1
+    400056: group_16
+    400058: group_17
+    400060: group_18
+    400062: group_19
+    400064: Group_2
+    400066: group_2
+    400068: Group_2 1
+    400070: group_20
+    400072: group_21
+    400074: Group_22
+    400076: group_22
+    400078: Group_22 1
+    400080: group_23
+    400082: group_24
+    400084: group_25
+    400086: Group_26
+    400088: group_26
+    400090: Group_26 1
+    400092: group_27
+    400094: group_27 1
+    400096: group_28
+    400098: group_29
+    400100: Group_3
+    400102: group_3
+    400104: Group_3 1
+    400106: group_30
+    400108: group_31
+    400110: group_32
+    400112: Group_33
+    400114: group_33
+    400116: Group_33 1
+    400118: group_34
+    400120: group_35
+    400122: group_36
+    400124: group_37
+    400126: group_38
+    400128: group_39
+    400130: group_4
+    400132: group_40
+    400134: group_41
+    400136: group_42
+    400138: group_43
+    400140: group_44
+    400142: group_45
+    400144: group_46
+    400146: group_47
+    400148: group_48
+    400150: group_49
+    400152: group_5
+    400154: group_50
+    400156: group_51
+    400158: group_52
+    400160: group_53
+    400162: group_54
+    400164: Group_55
+    400166: group_55
+    400168: Group_55 1
+    400170: group_56
+    400172: group_57
+    400174: group_58
+    400176: group_59
+    400178: group_6
+    400180: group_60
+    400182: group_60 1
+    400184: group_61
+    400186: group_61 1
+    400188: group_62
+    400190: group_63
+    400192: Group_64
+    400194: group_64
+    400196: Group_64 1
+    400198: group_65
+    400200: group_65 1
+    400202: group_66
+    400204: group_66 1
+    400206: group_67
+    400208: group_67 1
+    400210: group_68
+    400212: group_68 1
+    400214: group_69
+    400216: group_69 1
+    400218: group_7
+    400220: group_70
+    400222: group_70 1
+    400224: group_71
+    400226: group_71 1
+    400228: group_72
+    400230: group_73
+    400232: Group_8
+    400234: group_8
+    400236: Group_8 1
+    400238: Group_83
+    400240: Group_83 1
+    400242: group_9
+    400244: ID1056
+    400246: ID1103
+    400248: ID1152
+    400250: ID1160
+    400252: ID1227
+    400254: ID1262
+    400256: ID1280
+    400258: ID129
+    400260: ID1298
+    400262: ID135
+    400264: ID1360
+    400266: ID1373
+    400268: ID1387
+    400270: ID141
+    400272: ID1414
+    400274: ID1422
+    400276: ID1436
+    400278: ID1465
+    400280: ID147
+    400282: ID1473
+    400284: ID1516
+    400286: ID1524
+    400288: ID153
+    400290: ID1557
+    400292: ID1565
+    400294: ID1587
+    400296: ID159
+    400298: ID1605
+    400300: ID1619
+    400302: ID1625
+    400304: ID1629
+    400306: ID1633
+    400308: ID1637
+    400310: ID1641
+    400312: ID1645
+    400314: ID1649
+    400316: ID165
+    400318: ID171
+    400320: ID190
+    400322: ID219
+    400324: ID254
+    400326: ID301
+    400328: ID370
+    400330: ID39
+    400332: ID436
+    400334: ID436 1
+    400336: ID436 2
+    400338: ID444
+    400340: ID444 1
+    400342: ID444 2
+    400344: ID460
+    400346: ID47
+    400348: ID487
+    400350: ID495
+    400352: ID503
+    400354: ID53
+    400356: ID530
+    400358: ID543
+    400360: ID561
+    400362: ID569
+    400364: ID585
+    400366: ID593
+    400368: ID635
+    400370: ID648
+    400372: ID656
+    400374: ID664
+    400376: ID672
+    400378: ID680
+    400380: ID688
+    400382: ID696
+    400384: ID704
+    400386: ID712
+    400388: ID720
+    400390: ID728
+    400392: ID736
+    400394: ID80
+    400396: ID816
+    400398: ID824
+    400400: ID842
+    400402: ID848
+    400404: ID854
+    400406: ID86
+    400408: ID860
+    400410: ID866
+    400412: ID872
+    400414: ID878
+    400416: ID884
+    400418: ID890
+    400420: ID896
+    400422: ID902
+    400424: ID908
+    400426: ID912
+    400428: ID916
+    400430: ID920
+    400432: ID932
+    400434: ID940
+    400436: ID948
+    400438: ID956
+    400440: ID964
+    400442: ID972
+    400444: ID980
+    400446: instance_0
+    400448: instance_1
+    400450: instance_10
+    400452: instance_11
+    400454: instance_12
+    400456: instance_13
+    400458: instance_14
+    400460: instance_15
+    400462: instance_16
+    400464: instance_17
+    400466: instance_18
+    400468: instance_19
+    400470: instance_2
+    400472: instance_20
+    400474: instance_21
+    400476: instance_22
+    400478: instance_23
+    400480: instance_23 1
+    400482: instance_24
+    400484: instance_25
+    400486: instance_26
+    400488: instance_26 1
+    400490: instance_27
+    400492: instance_28
+    400494: instance_29
+    400496: instance_3
+    400498: instance_30
+    400500: instance_31
+    400502: instance_32
+    400504: instance_33
+    400506: instance_34
+    400508: instance_35
+    400510: instance_36
+    400512: instance_4
+    400514: instance_5
+    400516: instance_6
+    400518: instance_7
+    400520: instance_8
+    400522: instance_9
+    400524: Logo
+    400526: skp_camera_Last_Saved_SketchUp_View
+    400528: //RootNode
+    2300000: Component_1
+    2300002: Component_1 1
+    2300004: Component_1 2
+    2300006: Component_2
+    2300008: Component_3
+    2300010: Component_3 1
+    2300012: Component_4
+    2300014: Component_5
+    2300016: Component_5 1
+    2300018: Component_5 2
+    2300020: Component_5 3
+    2300022: Component_5 4
+    2300024: Component_5 5
+    2300026: group_0
+    2300028: group_1
+    2300030: group_10
+    2300032: group_11
+    2300034: group_12
+    2300036: Group_129
+    2300038: Group_129 1
+    2300040: group_13
+    2300042: group_14
+    2300044: Group_15
+    2300046: group_15
+    2300048: Group_15 1
+    2300050: group_16
+    2300052: group_17
+    2300054: group_18
+    2300056: group_19
+    2300058: Group_2
+    2300060: Group_2 1
+    2300062: group_20
+    2300064: Group_22
+    2300066: group_22
+    2300068: Group_22 1
+    2300070: group_23
+    2300072: group_24
+    2300074: group_25
+    2300076: group_26
+    2300078: group_27
+    2300080: group_27 1
+    2300082: group_28
+    2300084: group_29
+    2300086: Group_3
+    2300088: group_3
+    2300090: Group_3 1
+    2300092: group_30
+    2300094: group_31
+    2300096: group_32
+    2300098: Group_33
+    2300100: group_33
+    2300102: Group_33 1
+    2300104: group_34
+    2300106: group_37
+    2300108: group_38
+    2300110: group_4
+    2300112: group_40
+    2300114: group_41
+    2300116: group_42
+    2300118: group_43
+    2300120: group_44
+    2300122: group_45
+    2300124: group_46
+    2300126: group_48
+    2300128: group_49
+    2300130: group_5
+    2300132: group_51
+    2300134: group_52
+    2300136: group_53
+    2300138: group_54
+    2300140: group_55
+    2300142: group_56
+    2300144: group_59
+    2300146: group_61
+    2300148: group_61 1
+    2300150: group_63
+    2300152: Group_64
+    2300154: group_64
+    2300156: Group_64 1
+    2300158: group_65
+    2300160: group_65 1
+    2300162: group_66
+    2300164: group_66 1
+    2300166: group_67
+    2300168: group_67 1
+    2300170: group_68
+    2300172: group_68 1
+    2300174: group_69
+    2300176: group_69 1
+    2300178: group_70
+    2300180: group_70 1
+    2300182: group_71
+    2300184: group_71 1
+    2300186: group_72
+    2300188: group_73
+    2300190: Group_8
+    2300192: group_8
+    2300194: Group_8 1
+    2300196: Group_83
+    2300198: Group_83 1
+    2300200: group_9
+    2300202: ID1056
+    2300204: ID1152
+    2300206: ID1160
+    2300208: ID1227
+    2300210: ID1262
+    2300212: ID1280
+    2300214: ID129
+    2300216: ID1298
+    2300218: ID135
+    2300220: ID1360
+    2300222: ID1373
+    2300224: ID1387
+    2300226: ID141
+    2300228: ID1414
+    2300230: ID1422
+    2300232: ID1436
+    2300234: ID1465
+    2300236: ID147
+    2300238: ID1473
+    2300240: ID1516
+    2300242: ID1524
+    2300244: ID153
+    2300246: ID1557
+    2300248: ID1587
+    2300250: ID159
+    2300252: ID1605
+    2300254: ID1619
+    2300256: ID165
+    2300258: ID171
+    2300260: ID190
+    2300262: ID219
+    2300264: ID254
+    2300266: ID301
+    2300268: ID370
+    2300270: ID39
+    2300272: ID436
+    2300274: ID436 1
+    2300276: ID436 2
+    2300278: ID444
+    2300280: ID444 1
+    2300282: ID444 2
+    2300284: ID460
+    2300286: ID487
+    2300288: ID495
+    2300290: ID503
+    2300292: ID530
+    2300294: ID543
+    2300296: ID561
+    2300298: ID569
+    2300300: ID585
+    2300302: ID593
+    2300304: ID635
+    2300306: ID648
+    2300308: ID656
+    2300310: ID664
+    2300312: ID672
+    2300314: ID680
+    2300316: ID688
+    2300318: ID696
+    2300320: ID704
+    2300322: ID712
+    2300324: ID720
+    2300326: ID728
+    2300328: ID736
+    2300330: ID816
+    2300332: ID824
+    2300334: ID842
+    2300336: ID848
+    2300338: ID854
+    2300340: ID860
+    2300342: ID866
+    2300344: ID872
+    2300346: ID878
+    2300348: ID884
+    2300350: ID890
+    2300352: ID896
+    2300354: ID902
+    2300356: ID932
+    2300358: ID940
+    2300360: ID948
+    2300362: ID956
+    2300364: ID964
+    2300366: ID972
+    2300368: ID980
+    2300370: Logo
+    3300000: Component_1
+    3300002: Component_1 1
+    3300004: Component_1 2
+    3300006: Component_2
+    3300008: Component_3
+    3300010: Component_3 1
+    3300012: Component_4
+    3300014: Component_5
+    3300016: Component_5 1
+    3300018: Component_5 2
+    3300020: Component_5 3
+    3300022: Component_5 4
+    3300024: Component_5 5
+    3300026: group_0
+    3300028: group_1
+    3300030: group_10
+    3300032: group_11
+    3300034: group_12
+    3300036: Group_129
+    3300038: Group_129 1
+    3300040: group_13
+    3300042: group_14
+    3300044: Group_15
+    3300046: group_15
+    3300048: Group_15 1
+    3300050: group_16
+    3300052: group_17
+    3300054: group_18
+    3300056: group_19
+    3300058: Group_2
+    3300060: Group_2 1
+    3300062: group_20
+    3300064: Group_22
+    3300066: group_22
+    3300068: Group_22 1
+    3300070: group_23
+    3300072: group_24
+    3300074: group_25
+    3300076: group_26
+    3300078: group_27
+    3300080: group_27 1
+    3300082: group_28
+    3300084: group_29
+    3300086: Group_3
+    3300088: group_3
+    3300090: Group_3 1
+    3300092: group_30
+    3300094: group_31
+    3300096: group_32
+    3300098: Group_33
+    3300100: group_33
+    3300102: Group_33 1
+    3300104: group_34
+    3300106: group_37
+    3300108: group_38
+    3300110: group_4
+    3300112: group_40
+    3300114: group_41
+    3300116: group_42
+    3300118: group_43
+    3300120: group_44
+    3300122: group_45
+    3300124: group_46
+    3300126: group_48
+    3300128: group_49
+    3300130: group_5
+    3300132: group_51
+    3300134: group_52
+    3300136: group_53
+    3300138: group_54
+    3300140: group_55
+    3300142: group_56
+    3300144: group_59
+    3300146: group_61
+    3300148: group_61 1
+    3300150: group_63
+    3300152: Group_64
+    3300154: group_64
+    3300156: Group_64 1
+    3300158: group_65
+    3300160: group_65 1
+    3300162: group_66
+    3300164: group_66 1
+    3300166: group_67
+    3300168: group_67 1
+    3300170: group_68
+    3300172: group_68 1
+    3300174: group_69
+    3300176: group_69 1
+    3300178: group_70
+    3300180: group_70 1
+    3300182: group_71
+    3300184: group_71 1
+    3300186: group_72
+    3300188: group_73
+    3300190: Group_8
+    3300192: group_8
+    3300194: Group_8 1
+    3300196: Group_83
+    3300198: Group_83 1
+    3300200: group_9
+    3300202: ID1056
+    3300204: ID1152
+    3300206: ID1160
+    3300208: ID1227
+    3300210: ID1262
+    3300212: ID1280
+    3300214: ID129
+    3300216: ID1298
+    3300218: ID135
+    3300220: ID1360
+    3300222: ID1373
+    3300224: ID1387
+    3300226: ID141
+    3300228: ID1414
+    3300230: ID1422
+    3300232: ID1436
+    3300234: ID1465
+    3300236: ID147
+    3300238: ID1473
+    3300240: ID1516
+    3300242: ID1524
+    3300244: ID153
+    3300246: ID1557
+    3300248: ID1587
+    3300250: ID159
+    3300252: ID1605
+    3300254: ID1619
+    3300256: ID165
+    3300258: ID171
+    3300260: ID190
+    3300262: ID219
+    3300264: ID254
+    3300266: ID301
+    3300268: ID370
+    3300270: ID39
+    3300272: ID436
+    3300274: ID436 1
+    3300276: ID436 2
+    3300278: ID444
+    3300280: ID444 1
+    3300282: ID444 2
+    3300284: ID460
+    3300286: ID487
+    3300288: ID495
+    3300290: ID503
+    3300292: ID530
+    3300294: ID543
+    3300296: ID561
+    3300298: ID569
+    3300300: ID585
+    3300302: ID593
+    3300304: ID635
+    3300306: ID648
+    3300308: ID656
+    3300310: ID664
+    3300312: ID672
+    3300314: ID680
+    3300316: ID688
+    3300318: ID696
+    3300320: ID704
+    3300322: ID712
+    3300324: ID720
+    3300326: ID728
+    3300328: ID736
+    3300330: ID816
+    3300332: ID824
+    3300334: ID842
+    3300336: ID848
+    3300338: ID854
+    3300340: ID860
+    3300342: ID866
+    3300344: ID872
+    3300346: ID878
+    3300348: ID884
+    3300350: ID890
+    3300352: ID896
+    3300354: ID902
+    3300356: ID932
+    3300358: ID940
+    3300360: ID948
+    3300362: ID956
+    3300364: ID964
+    3300366: ID972
+    3300368: ID980
+    3300370: Logo
+    4300000: group_0
+    4300002: ID1619
+    4300004: group_1
+    4300006: group_3
+    4300008: group_4
+    4300010: ID39
+    4300012: group_5
+    4300014: group_8
+    4300016: Group_83
+    4300018: Group_83
+    4300020: group_9
+    4300022: ID190
+    4300024: group_10
+    4300026: ID129
+    4300028: ID135
+    4300030: ID141
+    4300032: ID147
+    4300034: ID153
+    4300036: ID159
+    4300038: ID165
+    4300040: ID171
+    4300042: group_11
+    4300044: ID219
+    4300046: group_12
+    4300048: group_13
+    4300050: group_14
+    4300052: group_15
+    4300054: Component_2
+    4300056: ID254
+    4300058: group_16
+    4300060: group_17
+    4300062: group_18
+    4300064: group_19
+    4300066: group_20
+    4300068: ID301
+    4300070: group_22
+    4300072: group_23
+    4300074: group_24
+    4300076: group_25
+    4300078: group_26
+    4300080: Group_8
+    4300082: ID370
+    4300084: Group_33
+    4300086: Group_2
+    4300088: group_27
+    4300090: group_28
+    4300092: group_29
+    4300094: ID460
+    4300096: Component_1
+    4300098: ID436
+    4300100: ID444
+    4300102: group_30
+    4300104: ID585
+    4300106: ID593
+    4300108: group_31
+    4300110: group_32
+    4300112: ID487
+    4300114: ID495
+    4300116: ID503
+    4300118: group_33
+    4300120: Group_64
+    4300122: ID530
+    4300124: ID543
+    4300126: Group_64
+    4300128: ID561
+    4300130: ID569
+    4300132: group_34
+    4300134: group_37
+    4300136: group_38
+    4300138: ID635
+    4300140: ID648
+    4300142: ID656
+    4300144: ID664
+    4300146: ID672
+    4300148: ID680
+    4300150: ID688
+    4300152: ID696
+    4300154: ID704
+    4300156: ID712
+    4300158: ID720
+    4300160: ID728
+    4300162: ID736
+    4300164: group_40
+    4300166: Logo
+    4300168: group_41
+    4300170: group_42
+    4300172: group_43
+    4300174: group_44
+    4300176: group_45
+    4300178: group_46
+    4300180: ID816
+    4300182: ID824
+    4300184: group_48
+    4300186: ID932
+    4300188: ID940
+    4300190: ID948
+    4300192: ID956
+    4300194: ID964
+    4300196: ID972
+    4300198: ID980
+    4300200: group_49
+    4300202: ID842
+    4300204: ID848
+    4300206: ID854
+    4300208: ID860
+    4300210: ID866
+    4300212: ID872
+    4300214: ID878
+    4300216: ID884
+    4300218: ID890
+    4300220: ID896
+    4300222: ID902
+    4300224: group_51
+    4300226: group_52
+    4300228: group_53
+    4300230: group_54
+    4300232: Group_33
+    4300234: Group_2
+    4300236: group_27
+    4300238: Group_8
+    4300240: ID1056
+    4300242: group_55
+    4300244: group_56
+    4300246: group_59
+    4300248: group_61
+    4300250: group_63
+    4300252: ID1152
+    4300254: ID1160
+    4300256: group_64
+    4300258: group_65
+    4300260: group_66
+    4300262: group_67
+    4300264: ID1227
+    4300266: group_65
+    4300268: group_66
+    4300270: group_67
+    4300272: ID1262
+    4300274: Group_22
+    4300276: ID1280
+    4300278: Group_22
+    4300280: ID1298
+    4300282: group_61
+    4300284: Group_3
+    4300286: ID1387
+    4300288: Group_15
+    4300290: ID1360
+    4300292: ID1373
+    4300294: group_68
+    4300296: Group_3
+    4300298: ID1436
+    4300300: Group_15
+    4300302: ID1414
+    4300304: ID1422
+    4300306: group_68
+    4300308: group_69
+    4300310: ID1465
+    4300312: ID1473
+    4300314: Component_3
+    4300316: group_70
+    4300318: group_71
+    4300320: group_69
+    4300322: ID1516
+    4300324: ID1524
+    4300326: Component_3
+    4300328: group_70
+    4300330: group_71
+    4300332: Component_4
+    4300334: group_72
+    4300336: ID1557
+    4300338: Group_129
+    4300340: ID1587
+    4300342: Group_129
+    4300344: ID1605
+    4300346: group_73
+    4300348: Component_5
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

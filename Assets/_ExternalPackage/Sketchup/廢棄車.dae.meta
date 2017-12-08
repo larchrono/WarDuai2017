@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 8efb749aeac6b4b4cbf8a3551e6bb58f
+timeCreated: 1502130371
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackDoor
+    100002: BackDoorPass
+    100004: ball
+    100006: ball 1
+    100008: ball 2
+    100010: ball 3
+    100012: ball 4
+    100014: Car_Sedan
+    100016: CarCore_1
+    100018: CarCore_2
+    100020: FrontDoor_2
+    100022: FrontDoor_2 1
+    100024: ID101
+    100026: ID109
+    100028: ID117
+    100030: ID125
+    100032: ID133
+    100034: ID161
+    100036: ID169
+    100038: ID175
+    100040: ID183
+    100042: ID193
+    100044: ID201
+    100046: ID207
+    100048: ID221
+    100050: ID227
+    100052: ID235
+    100054: ID243
+    100056: ID249
+    100058: ID255
+    100060: ID269
+    100062: ID277
+    100064: ID283
+    100066: ID291
+    100068: ID297
+    100070: ID301
+    100072: ID325
+    100074: ID333
+    100076: ID339
+    100078: ID347
+    100080: ID355
+    100082: ID363
+    100084: ID367
+    100086: ID381
+    100088: ID387
+    100090: ID39
+    100092: ID395
+    100094: ID401
+    100096: ID409
+    100098: ID417
+    100100: ID425
+    100102: ID47
+    100104: ID55
+    100106: ID61
+    100108: ID69
+    100110: ID77
+    100112: ID85
+    100114: ID93
+    100116: instance_0
+    100118: instance_1
+    100120: instance_10
+    100122: instance_11
+    100124: instance_12
+    100126: instance_2
+    100128: instance_3
+    100130: instance_4
+    100132: instance_5
+    100134: instance_6
+    100136: instance_7
+    100138: instance_8
+    100140: instance_8 1
+    100142: instance_9
+    100144: Mirror
+    100146: Mirror 1
+    100148: skp_camera_Last_Saved_SketchUp_View
+    100150: //RootNode
+    400000: BackDoor
+    400002: BackDoorPass
+    400004: ball
+    400006: ball 1
+    400008: ball 2
+    400010: ball 3
+    400012: ball 4
+    400014: Car_Sedan
+    400016: CarCore_1
+    400018: CarCore_2
+    400020: FrontDoor_2
+    400022: FrontDoor_2 1
+    400024: ID101
+    400026: ID109
+    400028: ID117
+    400030: ID125
+    400032: ID133
+    400034: ID161
+    400036: ID169
+    400038: ID175
+    400040: ID183
+    400042: ID193
+    400044: ID201
+    400046: ID207
+    400048: ID221
+    400050: ID227
+    400052: ID235
+    400054: ID243
+    400056: ID249
+    400058: ID255
+    400060: ID269
+    400062: ID277
+    400064: ID283
+    400066: ID291
+    400068: ID297
+    400070: ID301
+    400072: ID325
+    400074: ID333
+    400076: ID339
+    400078: ID347
+    400080: ID355
+    400082: ID363
+    400084: ID367
+    400086: ID381
+    400088: ID387
+    400090: ID39
+    400092: ID395
+    400094: ID401
+    400096: ID409
+    400098: ID417
+    400100: ID425
+    400102: ID47
+    400104: ID55
+    400106: ID61
+    400108: ID69
+    400110: ID77
+    400112: ID85
+    400114: ID93
+    400116: instance_0
+    400118: instance_1
+    400120: instance_10
+    400122: instance_11
+    400124: instance_12
+    400126: instance_2
+    400128: instance_3
+    400130: instance_4
+    400132: instance_5
+    400134: instance_6
+    400136: instance_7
+    400138: instance_8
+    400140: instance_8 1
+    400142: instance_9
+    400144: Mirror
+    400146: Mirror 1
+    400148: skp_camera_Last_Saved_SketchUp_View
+    400150: //RootNode
+    2300000: BackDoor
+    2300002: BackDoorPass
+    2300004: ball
+    2300006: ball 1
+    2300008: ball 2
+    2300010: ball 3
+    2300012: ball 4
+    2300014: CarCore_1
+    2300016: CarCore_2
+    2300018: FrontDoor_2
+    2300020: FrontDoor_2 1
+    2300022: ID101
+    2300024: ID109
+    2300026: ID117
+    2300028: ID125
+    2300030: ID133
+    2300032: ID161
+    2300034: ID169
+    2300036: ID175
+    2300038: ID183
+    2300040: ID193
+    2300042: ID221
+    2300044: ID227
+    2300046: ID235
+    2300048: ID243
+    2300050: ID269
+    2300052: ID277
+    2300054: ID283
+    2300056: ID291
+    2300058: ID325
+    2300060: ID333
+    2300062: ID339
+    2300064: ID347
+    2300066: ID355
+    2300068: ID381
+    2300070: ID387
+    2300072: ID39
+    2300074: ID395
+    2300076: ID401
+    2300078: ID409
+    2300080: ID417
+    2300082: ID425
+    2300084: ID47
+    2300086: ID55
+    2300088: ID61
+    2300090: ID69
+    2300092: ID77
+    2300094: ID85
+    2300096: ID93
+    2300098: Mirror
+    2300100: Mirror 1
+    3300000: BackDoor
+    3300002: BackDoorPass
+    3300004: ball
+    3300006: ball 1
+    3300008: ball 2
+    3300010: ball 3
+    3300012: ball 4
+    3300014: CarCore_1
+    3300016: CarCore_2
+    3300018: FrontDoor_2
+    3300020: FrontDoor_2 1
+    3300022: ID101
+    3300024: ID109
+    3300026: ID117
+    3300028: ID125
+    3300030: ID133
+    3300032: ID161
+    3300034: ID169
+    3300036: ID175
+    3300038: ID183
+    3300040: ID193
+    3300042: ID221
+    3300044: ID227
+    3300046: ID235
+    3300048: ID243
+    3300050: ID269
+    3300052: ID277
+    3300054: ID283
+    3300056: ID291
+    3300058: ID325
+    3300060: ID333
+    3300062: ID339
+    3300064: ID347
+    3300066: ID355
+    3300068: ID381
+    3300070: ID387
+    3300072: ID39
+    3300074: ID395
+    3300076: ID401
+    3300078: ID409
+    3300080: ID417
+    3300082: ID425
+    3300084: ID47
+    3300086: ID55
+    3300088: ID61
+    3300090: ID69
+    3300092: ID77
+    3300094: ID85
+    3300096: ID93
+    3300098: Mirror
+    3300100: Mirror 1
+    4300000: ball
+    4300002: CarCore_2
+    4300004: ID39
+    4300006: ID47
+    4300008: ID55
+    4300010: ID61
+    4300012: ID69
+    4300014: ID77
+    4300016: ID85
+    4300018: ID93
+    4300020: ID101
+    4300022: ID109
+    4300024: ID117
+    4300026: ID125
+    4300028: ID133
+    4300030: FrontDoor_2
+    4300032: ID161
+    4300034: ID169
+    4300036: ID175
+    4300038: ID183
+    4300040: ID193
+    4300042: Mirror
+    4300044: BackDoorPass
+    4300046: ID221
+    4300048: ID227
+    4300050: ID235
+    4300052: ID243
+    4300054: BackDoor
+    4300056: ID269
+    4300058: ID277
+    4300060: ID283
+    4300062: ID291
+    4300064: FrontDoor_2
+    4300066: ID325
+    4300068: ID333
+    4300070: ID339
+    4300072: ID347
+    4300074: ID355
+    4300076: Mirror
+    4300078: CarCore_1
+    4300080: ID381
+    4300082: ID387
+    4300084: ID395
+    4300086: ID401
+    4300088: ID409
+    4300090: ID417
+    4300092: ID425
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

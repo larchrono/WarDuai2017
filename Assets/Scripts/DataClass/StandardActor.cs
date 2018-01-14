@@ -148,7 +148,7 @@ public class StandardActor : BasicActorClass {
 			AgiLvRaise = 2;
 			HPLvRaise = 4;
 			MPLvRaise = 6;
-			//BaseAgi = 150;
+			//BaseAgi = 5;
 
 			equippedWeapon = 101;
 			equippedArmor = 201;
@@ -323,7 +323,7 @@ public class StandardActor : BasicActorClass {
 		EXP += value;
 		bool isLevelUp = false;
 		for (int i = nowLv + 1 ; i < 100; i++) {
-			if (GlobalData.Instance.EXPTable [i] - EXP <= 0) {
+			if (InitEXPTable.Normal.ExpTable [i] - EXP <= 0) {
 				LevelUp ();
 				isLevelUp = true;
 			} else

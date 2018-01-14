@@ -76,6 +76,9 @@ public class BattleMain : MonoBehaviour {
 	float timeSpeedRate;
 	public List<BattleActor> unitsInPrepare;
 
+	//控制目前增到第幾位的時間
+	int passId = 0;
+
 	bool startLeaving = false;
 
 	void Awake() {
@@ -152,34 +155,35 @@ public class BattleMain : MonoBehaviour {
 
 		if (timepass) {
 
-			for(int i=0;i<memberTotal;i++){
-				if (Units[i] == null || !Units[i].IsAlive())
+			for(;passId<memberTotal;passId++){
+				if (Units[passId] == null || !Units[passId].IsAlive())
 					continue;
 				
 				if (unitsInPrepare.Count > 0)
-					Units [i].TimePoint = Mathf.Clamp (Units [i].TimePoint + Units [i].TimeSpeed * Time.deltaTime, 0f, 1000f);
+					Units [passId].TimePoint = Mathf.Clamp (Units [passId].TimePoint + Units [passId].TimeSpeed * Time.deltaTime, 0f, 1000f);
 				else
-					Units [i].TimePoint = Mathf.Clamp (Units [i].TimePoint + Units [i].TimeSpeed * timeSpeedRate * Time.deltaTime, 0f, 1000f);
+					Units [passId].TimePoint = Mathf.Clamp (Units [passId].TimePoint + Units [passId].TimeSpeed * timeSpeedRate * Time.deltaTime, 0f, 1000f);
 				
-				UnitsIcon [i].GetComponent<RectTransform> ().anchorMin = new Vector2 ((Units[i].TimePoint/timelineAction),RunLineIconHeight);
-				UnitsIcon [i].GetComponent<RectTransform> ().anchorMax = new Vector2 ((Units[i].TimePoint/timelineAction),RunLineIconHeight);
+				UnitsIcon [passId].GetComponent<RectTransform> ().anchorMin = new Vector2 ((Units[passId].TimePoint/timelineAction),RunLineIconHeight);
+				UnitsIcon [passId].GetComponent<RectTransform> ().anchorMax = new Vector2 ((Units[passId].TimePoint/timelineAction),RunLineIconHeight);
 
 				//Debug.Log ("player:"+Units[0].TimePoint);
 
 				//發布Ready Event
-				if (Units[i].TimePoint > timelineReady & Units[i].InState == 0) {
-					Units[i].InState = 1;
-					EVENT_UNIT_ENTER_READYPOINT.Invoke (this, new ActionUnitArgs (){ triggerUnit = Units[i] });
+				if (Units[passId].TimePoint > timelineReady & Units[passId].InState == 0) {
+					Units[passId].InState = 1;
+					EVENT_UNIT_ENTER_READYPOINT.Invoke (this, new ActionUnitArgs (){ triggerUnit = Units[passId] });
+					break;
 				}
 
 				//發佈Action Event
-				if (Units[i].TimePoint >= timelineAction & Units[i].InState == 1) {
-					Units[i].InState = 2;
-					EVENT_UNIT_ENTER_ACTION.Invoke (this, new ActionUnitArgs (){ triggerUnit = Units[i] });
+				if (Units[passId].TimePoint >= timelineAction & Units[passId].InState == 1) {
+					Units[passId].InState = 2;
+					EVENT_UNIT_ENTER_ACTION.Invoke (this, new ActionUnitArgs (){ triggerUnit = Units[passId] });
 				}
-
-
 			}
+			if (passId >= memberTotal)
+				passId = 0;
 
 		}
 	}

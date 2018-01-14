@@ -734,7 +734,7 @@ public class WorldMenuController : MonoBehaviour {
 		allTextObject.infoActorShoes.text = ItemsDataBase.ItemData [tempActor.EquippedShoes].Name;
 		allTextObject.infoActorRing.text = ItemsDataBase.ItemData [tempActor.EquippedRing].Name;
 		//allTextObject.infoActorNextEXP.text = (globalData.EXPTable [tempActor.Level + 1] - tempActor.EXP).ToString ();
-		allTextObject.infoActorNextEXP.text = GlobalData.Instance.GetNextNeedExp(tempActor).ToString ();
+		allTextObject.infoActorNextEXP.text = InitEXPTable.Normal.GetNextNeedExp(tempActor).ToString ();
 
 		//Button connection , so need to deal with focus problem
 		if (inPanelName == "InSkill") {

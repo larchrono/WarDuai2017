@@ -1,8 +1,130 @@
 fileFormatVersion: 2
 guid: 7ecb93805cd7741eda56ef80b1f18e1d
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Weapon_Axe_01
+    100004: Weapon_Axe_02
+    100006: Weapon_Axe_03
+    100008: Weapon_Axe_04
+    100010: Weapon_Axe_05
+    100012: Weapon_Axe_06
+    100014: Weapon_Axe_07
+    100016: Weapon_Axe_08
+    100018: Weapon_Axe_09
+    100020: Weapon_Axe_10
+    100022: Weapon_Axe_11
+    100024: Weapon_Axe_12
+    100026: Weapon_Axe_13
+    100028: Weapon_Axe_14
+    100030: Weapon_Axe_15
+    100032: Weapon_Blade_01
+    100034: Weapon_Blade_02
+    100036: Weapon_Blade_03
+    100038: Weapon_Blade_04
+    100040: Weapon_Blade_05
+    100042: Weapon_Blade_06
+    100044: Weapon_Blade_07
+    100046: Weapon_Blade_08
+    100048: Weapon_Blade_09
+    100050: Weapon_Blade_10
+    100052: Weapon_Blade_11
+    100054: Weapon_Blade_12
+    100056: Weapon_Blade_13
+    100058: Weapon_Blade_14
+    100060: Weapon_Blade_15
+    400000: //RootNode
+    400002: Weapon_Axe_01
+    400004: Weapon_Axe_02
+    400006: Weapon_Axe_03
+    400008: Weapon_Axe_04
+    400010: Weapon_Axe_05
+    400012: Weapon_Axe_06
+    400014: Weapon_Axe_07
+    400016: Weapon_Axe_08
+    400018: Weapon_Axe_09
+    400020: Weapon_Axe_10
+    400022: Weapon_Axe_11
+    400024: Weapon_Axe_12
+    400026: Weapon_Axe_13
+    400028: Weapon_Axe_14
+    400030: Weapon_Axe_15
+    400032: Weapon_Blade_01
+    400034: Weapon_Blade_02
+    400036: Weapon_Blade_03
+    400038: Weapon_Blade_04
+    400040: Weapon_Blade_05
+    400042: Weapon_Blade_06
+    400044: Weapon_Blade_07
+    400046: Weapon_Blade_08
+    400048: Weapon_Blade_09
+    400050: Weapon_Blade_10
+    400052: Weapon_Blade_11
+    400054: Weapon_Blade_12
+    400056: Weapon_Blade_13
+    400058: Weapon_Blade_14
+    400060: Weapon_Blade_15
+    2300000: Weapon_Axe_01
+    2300002: Weapon_Axe_02
+    2300004: Weapon_Axe_03
+    2300006: Weapon_Axe_04
+    2300008: Weapon_Axe_05
+    2300010: Weapon_Axe_06
+    2300012: Weapon_Axe_07
+    2300014: Weapon_Axe_08
+    2300016: Weapon_Axe_09
+    2300018: Weapon_Axe_10
+    2300020: Weapon_Axe_11
+    2300022: Weapon_Axe_12
+    2300024: Weapon_Axe_13
+    2300026: Weapon_Axe_14
+    2300028: Weapon_Axe_15
+    2300030: Weapon_Blade_01
+    2300032: Weapon_Blade_02
+    2300034: Weapon_Blade_03
+    2300036: Weapon_Blade_04
+    2300038: Weapon_Blade_05
+    2300040: Weapon_Blade_06
+    2300042: Weapon_Blade_07
+    2300044: Weapon_Blade_08
+    2300046: Weapon_Blade_09
+    2300048: Weapon_Blade_10
+    2300050: Weapon_Blade_11
+    2300052: Weapon_Blade_12
+    2300054: Weapon_Blade_13
+    2300056: Weapon_Blade_14
+    2300058: Weapon_Blade_15
+    3300000: Weapon_Axe_01
+    3300002: Weapon_Axe_02
+    3300004: Weapon_Axe_03
+    3300006: Weapon_Axe_04
+    3300008: Weapon_Axe_05
+    3300010: Weapon_Axe_06
+    3300012: Weapon_Axe_07
+    3300014: Weapon_Axe_08
+    3300016: Weapon_Axe_09
+    3300018: Weapon_Axe_10
+    3300020: Weapon_Axe_11
+    3300022: Weapon_Axe_12
+    3300024: Weapon_Axe_13
+    3300026: Weapon_Axe_14
+    3300028: Weapon_Axe_15
+    3300030: Weapon_Blade_01
+    3300032: Weapon_Blade_02
+    3300034: Weapon_Blade_03
+    3300036: Weapon_Blade_04
+    3300038: Weapon_Blade_05
+    3300040: Weapon_Blade_06
+    3300042: Weapon_Blade_07
+    3300044: Weapon_Blade_08
+    3300046: Weapon_Blade_09
+    3300048: Weapon_Blade_10
+    3300050: Weapon_Blade_11
+    3300052: Weapon_Blade_12
+    3300054: Weapon_Blade_13
+    3300056: Weapon_Blade_14
+    3300058: Weapon_Blade_15
     4300000: Weapon_Blade_01
     4300002: Weapon_Blade_02
     4300004: Weapon_Blade_03
@@ -33,26 +155,178 @@ ModelImporter:
     4300054: Weapon_Blade_15
     4300056: Weapon_Blade_11
     4300058: Weapon_Blade_12
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: f8b98de172af9b542a45b348cdd7527d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 60d3750724dd6b04d98c164f92d011a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: fc55269679597d34fbebf43f5fcbce8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: add63cfdec31d9044a8c0bc860c98b93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Default
+    second: {fileID: 2100000, guid: 1a28b3300d1bf1b4f9f0f8e372f090d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Default
+    second: {fileID: 2100000, guid: 9e48fdcbc4619dc478e4bc437d3debfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 16 - Default
+    second: {fileID: 2100000, guid: f204daa325957d94aa93b6520a14545a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17 - Default
+    second: {fileID: 2100000, guid: bdfed02a5d49ff548ac3d4dacc0f7bdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18 - Default
+    second: {fileID: 2100000, guid: b3eb7876993b9014585bce02796a08f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default
+    second: {fileID: 2100000, guid: 2994168377078404e959e745b2cf459f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20 - Default
+    second: {fileID: 2100000, guid: 81183f7463543b84eb2dc42c867b98c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: 46c4399671ba8c34a87b67212c33ddf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 22 - Default
+    second: {fileID: 2100000, guid: b020ace21766799428e920184a7fb024, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 23 - Default
+    second: {fileID: 2100000, guid: 0d737a472cdb74841b59f096ce41a7e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 24 - Default
+    second: {fileID: 2100000, guid: 118e63948fbebbf43a08a3c61db67c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_10
+    second: {fileID: 2100000, guid: 8b8f1254e20e183449b4fd3f81c9eb29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_11
+    second: {fileID: 2100000, guid: da58cb3cea5c8454aaae5580fdb6d276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_12
+    second: {fileID: 2100000, guid: d933314888200764ca0fa8fda23b6321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_13
+    second: {fileID: 2100000, guid: c8dd58c8180e0fc4d966176b7408e12a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_14
+    second: {fileID: 2100000, guid: 6a49c15b6c2ab24498eea9a50f13d1b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_15
+    second: {fileID: 2100000, guid: 6796dc4c2dd36e842bcd9ae1fcb7a218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_16
+    second: {fileID: 2100000, guid: 62dd33e0c3043fa4386ecd5cfcae522e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_3
+    second: {fileID: 2100000, guid: 3cc08496aa736f34abbd89b94feec5c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_4
+    second: {fileID: 2100000, guid: 5073a7321f8e3574eb6239b410eb9bd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_5
+    second: {fileID: 2100000, guid: d20ac11bd1bb42047aaf1013816ebc7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_6
+    second: {fileID: 2100000, guid: 8fe6e78236daa284380ba0bdf306d592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_7
+    second: {fileID: 2100000, guid: 495ba66fd0694d24aaaff45b9f6909b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_8
+    second: {fileID: 2100000, guid: 5c7a26584b19b5e4abce6846e53ed5aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Standard_9
+    second: {fileID: 2100000, guid: 3e200385dbb3e0e4aad74e6e012b6955, type: 2}
   materials:
     importMaterials: 1
     materialName: 3
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -60,13 +334,18 @@ ModelImporter:
     globalScale: 5
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -76,6 +355,7 @@ ModelImporter:
     normalSmoothAngle: 180
     normalImportMode: 1
     tangentImportMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

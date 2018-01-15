@@ -307,15 +307,17 @@ public class StandardActor : BasicActorClass {
 	}
 
 	public void LevelUp(int num = 1){
-		Level++;
-		BaseStr += StrLvRaise;
-		BaseInt += IntLvRaise;
-		BaseVit += VitLvRaise;
-		BaseAgi += AgiLvRaise;
-		BaseHp += HPLvRaise;
-		BaseMp += MPLvRaise;
-		UpdateActorStatus ();
-		RecoverActorStatus ();
+		if (Level < 99) {
+			Level++;
+			BaseStr += StrLvRaise;
+			BaseInt += IntLvRaise;
+			BaseVit += VitLvRaise;
+			BaseAgi += AgiLvRaise;
+			BaseHp += HPLvRaise;
+			BaseMp += MPLvRaise;
+			UpdateActorStatus ();
+			RecoverActorStatus ();
+		}
 	}
 
 	public bool AddExp(int value){
@@ -323,7 +325,7 @@ public class StandardActor : BasicActorClass {
 		EXP += value;
 		bool isLevelUp = false;
 		for (int i = nowLv + 1 ; i < 100; i++) {
-			if (InitEXPTable.Normal.ExpTable [i] - EXP <= 0) {
+			if (EXPTable.Normal.ExpTable [i] - EXP <= 0) {
 				LevelUp ();
 				isLevelUp = true;
 			} else

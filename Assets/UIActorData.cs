@@ -39,8 +39,8 @@ public class UIActorData : MonoBehaviour {
 		if (EXP != null)
 			EXP.text = data.EXP.ToString();
 		if (EXP_Bar != null){
-			_exp_base = (float)InitEXPTable.Normal.GetThisLevelBaseExp (UIUSE_level);
-			_exp_end  = (float)InitEXPTable.Normal.GetToNextEXP (UIUSE_level);
+			_exp_base = (float)EXPTable.Normal.GetThisLevelBaseExp (UIUSE_level);
+			_exp_end  = (float)EXPTable.Normal.GetToNextEXP (UIUSE_level);
 			_exp_now  = (float)data.EXP;
 			CalcuExpBarLocation ();
 		}
@@ -54,8 +54,8 @@ public class UIActorData : MonoBehaviour {
 				Lv.text = "" + UIUSE_level;
 				if (LevelUpTip != null)
 					LevelUpTip.gameObject.SetActive (true);
-				_exp_base = InitEXPTable.Normal.GetThisLevelBaseExp (UIUSE_level);
-				_exp_end = InitEXPTable.Normal.GetToNextEXP (UIUSE_level);
+				_exp_base = EXPTable.Normal.GetThisLevelBaseExp (UIUSE_level);
+				_exp_end = EXPTable.Normal.GetToNextEXP (UIUSE_level);
 				_expbar_now = (_exp_now - _exp_base) / (_exp_end - _exp_base);
 			}
 			EXP_Bar.rectTransform.localScale = new Vector3 (_expbar_now, 1, 1);

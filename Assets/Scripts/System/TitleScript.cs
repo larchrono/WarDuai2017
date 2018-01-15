@@ -1,43 +1,105 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 
 public class TitleScript : MonoBehaviour {
 
+	public GameObject pressStartButton;
+	public GameObject mainPanel;
+	public GameObject continueButton;
+	public GameObject loadGamePanel;
+
 	// Use this for initialization
 	void Start () {
-		
+		if (loadGamePanel != null)
+			loadGamePanel.SetActive (false);
+
+		//Debug.Log(DateTime.Now.ToString ("yyyy") + "年" + DateTime.Now.ToString ("MM") + "月" + DateTime.Now.ToString ("dd") + "日");
+		//Debug.Log(DateTime.Now.ToString ("HH:mm:ss"));
+
+		//Debug.Log (TimeTool.ConvertFloatToTimeString(963909));
+		//Debug.Log ("ItemNum:"+GlobalData.Instance.InventoryConsumable.Count);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-		Debug.Log ("ItemNum:"+GlobalData.Instance.InventoryConsumable.Count);
+
+		if (Input.GetButtonDown ("B")) {
+			OnCancel ();
+		}
+		if (Input.GetMouseButtonDown (1)) {
+			OnCancel ();
+		}
 	}
 
-	public void ChangeIC(){
-		GlobalData.Instance.InventoryConsumable.Add(56);
+	public void BTN_NewGame(){
+		GameCamera.FadeOut (1.0f,10f,delegate() {
+			SceneManager.LoadSceneAsync ("Map_World_1");
+		});
 	}
 
 	public void BTN_LoadGame(){
-		SaveLoad.memorySlot = 0;
-		DataMemory memo = SaveLoad.M_LoadGame ();
-
-		GlobalData.Instance.goldCarry = memo.gold;
-		GlobalData.Instance.totalTime = memo.playedTime;
-		GlobalData.Instance.InventoryConsumable = memo.inventoryConsumable;
+		CheckSaveDataList ();
 	}
 
 	public void BTN_SaveGame(){
 		DataMemory memo = new DataMemory ();
 		SaveLoad.nowWorkingMemory = memo;
 
-		memo.gold = GlobalData.Instance.goldCarry;
-		memo.playedTime = GlobalData.Instance.totalTime;
-		memo.inventoryConsumable = GlobalData.Instance.InventoryConsumable;
+		memo.chapter = GlobalData.Instance.chapter;
+		memo.locat = GlobalData.Instance.locat;
 
+		memo.playedTime = GlobalData.Instance.playTime;
+		memo.gold = GlobalData.Instance.goldCarry;
+
+		memo.inventoryConsumable = GlobalData.Instance.InventoryConsumable;
+		memo.inventoryEquipment = GlobalData.Instance.InventoryEquipment;
+		memo.inventoryPrecious = GlobalData.Instance.InventoryPrecious;
+
+		memo.savedTime = DateTime.Now;
+
+		//All actors info will be saved to memo
+		ActorSetup.SaveToMemory ();
+
+		//
 		SaveLoad.memorySlot = 0;
 		SaveLoad.M_SaveGame ();
 	}
+
+
+	public void OnCancel()
+	{
+		pressStartButton.SetActive (false);
+		loadGamePanel.SetActive (false);
+		mainPanel.SetActive (true);
+		EventSystem.current.SetSelectedGameObject (continueButton);
+	}
+
+	public void CheckSaveDataList(){
+		for (int i = 0; i < 5; i++) {
+			SaveLoad.memorySlot = i;
+			DataMemory memo = SaveLoad.M_LoadGame ();
+			MemoryGameSlotAttach slot = loadGamePanel.GetComponent<LoadGamePanelAttach> ().memorySlot [i].GetComponent<MemoryGameSlotAttach> ();
+
+			//Save is null when chapter is zero . when not setup , it will be null
+			if (memo.chapter != 0)
+				slot.SetupMemory (memo);
+				
+		}
+	}
+
+	public void LoadSlotGame(MemoryGameSlotAttach data){
+		if (data.Memory != null) {
+			GlobalData.Instance.LoadMemory (data.Memory);
+			GameCamera.FadeOut (1.0f,10f,delegate() {
+				SceneManager.LoadSceneAsync ("Map_World_1");
+			});
+		}
+	}
+
+
 }

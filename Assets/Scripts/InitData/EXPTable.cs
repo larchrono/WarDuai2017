@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InitEXPTable {
+public class EXPTable {
 	
-	public static InitEXPTable Normal;
+	public static EXPTable Normal;
 
 	double exp_basic = 15;
 	double exp_rate = 1.6;
@@ -16,9 +16,9 @@ public class InitEXPTable {
 		get { return _expTable; }
 	}
 
-	static InitEXPTable(){
+	static EXPTable(){
 		Debug.Log ("exp init");
-		InitEXPTable m_table = new InitEXPTable ();
+		EXPTable m_table = new EXPTable ();
 
 		m_table._expTable = new List<int> ();
 		m_table._expTable.Add (0); // 0等
@@ -32,6 +32,8 @@ public class InitEXPTable {
 				m_table.exp_rate = (m_table.exp_rate * m_table.exp_rate_rate) < 1.1 ? 1.1 : m_table.exp_rate * m_table.exp_rate_rate;
 			}
 		}
+		//For level 99
+		m_table._expTable.Add (0);
 
 		Normal = m_table;
 	}

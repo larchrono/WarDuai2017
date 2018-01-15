@@ -16,9 +16,12 @@ public class GlobalData : MonoBehaviour {
 
 	//For Game Status
 	public bool m_isNew = true;
+	public int chapter;
+	public float playTime = 0;
+	public string locat;
 
 	// For Actor data
-	private StandardActor [] actors;
+	private List<StandardActor> actors;
 	private List<StandardActor> activeActors;
 
 	// For Gem System
@@ -28,7 +31,6 @@ public class GlobalData : MonoBehaviour {
 
 	// For Party data
 	public int goldCarry = 0;
-	public float totalTime = 0;
 
 	//For Item System
 	private List<int> _inventoryConsumable;
@@ -79,7 +81,7 @@ public class GlobalData : MonoBehaviour {
 	private Vector3 positionBeforeBattle = new Vector3(500,100,500);
 
 	void Update () {
-		totalTime += Time.unscaledDeltaTime;
+		playTime += Time.unscaledDeltaTime;
 	}
 
 	void Awake() {
@@ -107,6 +109,11 @@ public class GlobalData : MonoBehaviour {
 	}
 
 	private void FirstGameSet(){
+		// Setup System
+		chapter = 1;
+		playTime = 0;
+		locat = "杜埃城外";
+
 		// Setup Gems
 		_inPanelGems = new List<GemData>();
 		if (_inPanelGems.Count == 0) {
@@ -116,9 +123,12 @@ public class GlobalData : MonoBehaviour {
 		//Setup Actor
 		if (actors == null) {
 			//Total Actor
-			actors = new StandardActor[12];
-			actors [0] = new StandardActor (1);
-			actors [1] = new StandardActor (2);
+			actors = new List<StandardActor>();
+			actors.Add (new StandardActor (1));
+			actors.Add (new StandardActor (2));
+			//actors [0] = new StandardActor (1);
+			//actors [1] = new StandardActor (2);
+
 			//Active Actor
 			activeActors = new List<StandardActor> ();
 			activeActors.Add (actors [0]);
@@ -147,7 +157,7 @@ public class GlobalData : MonoBehaviour {
 
 
 	// Setter & Getter
-	public StandardActor[] Actors {
+	public List<StandardActor> Actors {
 		get { return actors;}
 		set { actors = value;}
 	}
@@ -207,5 +217,19 @@ public class GlobalData : MonoBehaviour {
 	public bool Invincible {
 		get { return invincible;}
 		set { invincible = value;}
+	}
+
+	public void LoadMemory(DataMemory memo){
+
+		chapter = memo.chapter;
+		locat = memo.locat;
+		playTime = memo.playedTime;
+		goldCarry = memo.gold;
+
+		InventoryConsumable = memo.inventoryConsumable;
+		InventoryEquipment = memo.inventoryEquipment;
+		InventoryPrecious = memo.inventoryPrecious;
+
+		ActorSetup.SetupFromMemory (memo);
 	}
 }

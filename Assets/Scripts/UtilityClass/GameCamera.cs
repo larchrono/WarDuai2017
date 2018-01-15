@@ -4,6 +4,8 @@ using System.Collections;
 
 public class GameCamera : MonoBehaviour {
 
+	public delegate void ActionCallback();
+
 	public enum EffectTypes {
 		APPLY_CAMERA,
 		SHOW_BLUR,
@@ -49,9 +51,15 @@ public class GameCamera : MonoBehaviour {
 		FadeWork.StartFadeIn (duration);
 	}
 
-	public static void FadeOut(float duration,float until = 0){
+	public static void FadeOut(float duration,float delete_delay = 0){
 		BlackFade FadeWork = new GameObject("FadeWork").AddComponent<BlackFade>();
-		FadeWork.StartFadeOut (duration,until);
+		FadeWork.StartFadeOut (duration,delete_delay);
+	}
+
+	public static void FadeOut(float duration,float delete_delay,ActionCallback function){
+		BlackFade FadeWork = new GameObject("FadeWork").AddComponent<BlackFade>();
+		FadeWork.callback = function;
+		FadeWork.StartFadeOut (duration,delete_delay);
 	}
 
 	public static void FadeOutIn(float duration){

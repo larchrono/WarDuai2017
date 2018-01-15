@@ -176,9 +176,9 @@ public class WorldMenuController : MonoBehaviour {
 		//Text Msg
 		goldValue.text = GlobalData.Instance.goldCarry.ToString();
 		TimeValue.text = string.Format("{0:00}:{1:00}:{2:00}",
-			Mathf.Floor(GlobalData.Instance.totalTime / 3600),//hours
-			Mathf.Floor((GlobalData.Instance.totalTime % 3600) / 60),//minutes
-			Mathf.Floor(GlobalData.Instance.totalTime % 60));//seconds
+			Mathf.Floor(GlobalData.Instance.playTime / 3600),//hours
+			Mathf.Floor((GlobalData.Instance.playTime % 3600) / 60),//minutes
+			Mathf.Floor(GlobalData.Instance.playTime % 60));//seconds
 
 		// not in animation
 		if (!menuTurnLock) {
@@ -734,7 +734,7 @@ public class WorldMenuController : MonoBehaviour {
 		allTextObject.infoActorShoes.text = ItemsDataBase.ItemData [tempActor.EquippedShoes].Name;
 		allTextObject.infoActorRing.text = ItemsDataBase.ItemData [tempActor.EquippedRing].Name;
 		//allTextObject.infoActorNextEXP.text = (globalData.EXPTable [tempActor.Level + 1] - tempActor.EXP).ToString ();
-		allTextObject.infoActorNextEXP.text = InitEXPTable.Normal.GetNextNeedExp(tempActor).ToString ();
+		allTextObject.infoActorNextEXP.text = EXPTable.Normal.GetNextNeedExp(tempActor).ToString ();
 
 		//Button connection , so need to deal with focus problem
 		if (inPanelName == "InSkill") {

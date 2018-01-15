@@ -27,6 +27,12 @@ public class SaveTool {
 		memo.savePosition = GlobalData.Instance.PositionBeforeBattle;
 		memo.cameraRotateAngle = GlobalData.Instance.WorldCameraRotateAngle;
 
+		memo.movie_0_active = GlobalData.Instance.movie_0_active;
+		memo.movie_1_active = GlobalData.Instance.movie_1_active;
+		memo.movie_2_active = GlobalData.Instance.movie_2_active;
+		memo.movie_3_active = GlobalData.Instance.movie_3_active;
+		memo.isDarkFireGateShow = GlobalData.Instance.isDarkFireGateShow;
+
 		SaveLoad.memorySlot = slot;
 		SaveLoad.M_SaveGame ();
 	}

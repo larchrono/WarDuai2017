@@ -15,8 +15,17 @@ public class ExtendBehaviour : MonoBehaviour {
 		
 	}
 
+
+	protected void LoadSceneAsyncDelay(string name ,float delaySec){
+		StartCoroutine (LoadSceneAsyncDelayWork (name,delaySec));
+	}
+
 	protected void LoadSceneAsyncDelay(int id ,float delaySec){
 		StartCoroutine (LoadSceneAsyncDelayWork (id,delaySec));
+	}
+	IEnumerator LoadSceneAsyncDelayWork(string name ,float delaySec){
+		yield return new WaitForSeconds (delaySec);
+		SceneManager.LoadSceneAsync (name);
 	}
 	IEnumerator LoadSceneAsyncDelayWork(int id ,float delaySec){
 		yield return new WaitForSeconds (delaySec);

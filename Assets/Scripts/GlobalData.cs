@@ -235,5 +235,11 @@ public class GlobalData : MonoBehaviour {
 
 		PositionBeforeBattle = memo.savePosition;
 		WorldCameraRotateAngle = memo.cameraRotateAngle;
+
+		movie_0_active = memo.movie_0_active;
+		movie_1_active = memo.movie_1_active;
+		movie_2_active = memo.movie_2_active;
+		movie_3_active = memo.movie_3_active;
+		isDarkFireGateShow = memo.isDarkFireGateShow;
 	}
 }

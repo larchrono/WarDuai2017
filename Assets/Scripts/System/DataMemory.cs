@@ -23,6 +23,13 @@ public class DataMemory {
 	public Vector3 savePosition;
 	public Vector2 cameraRotateAngle;
 
+	// Scene Para
+	public bool movie_0_active;
+	public bool movie_1_active;
+	public bool movie_2_active;
+	public bool movie_3_active;
+	public bool isDarkFireGateShow;
+
 	//int [] gems;
 
 

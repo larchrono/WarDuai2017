@@ -38,7 +38,7 @@ public class TitleScript : MonoBehaviour {
 
 	public void BTN_NewGame(){
 		GameCamera.FadeOut (1.0f,10f,delegate() {
-			SceneManager.LoadSceneAsync ("Map_World_1");
+			SceneManager.LoadSceneAsync ("PreMovie");
 		});
 	}
 

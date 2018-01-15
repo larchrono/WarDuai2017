@@ -6,6 +6,8 @@ using System;
 
 public class Transmission : MonoBehaviour {
 
+	public delegate void ActionCallback();
+
 	public static GameObject transmisionObject;
 
 	static public Queue<GameObject> QueueTransmit;
@@ -20,14 +22,14 @@ public class Transmission : MonoBehaviour {
 		}
 	}
 	
-	public static void FromUnit(BasicActorClass fromUnit,string name,string message,string mood,int location, bool isWait , double duration = 1.0){
+	public static void FromUnit(BasicActorClass fromUnit,string name,string message,string mood,int location, bool isWait , double duration , ActionCallback function = null){
 
 		CheckSetup ();
 		GameObject mainCanvas = GameObject.Find ("Canvas");
 
 		GameObject clone = (GameObject)Instantiate(transmisionObject, Vector3.zero, Quaternion.identity);
-		clone.GetComponent<TransmissionObject>().Setup (fromUnit, name, message, mood, location,isWait,duration);
-		clone.transform.SetParent (mainCanvas.GetComponent<RectTransform>(),false);
+		clone.GetComponent<TransmissionObject> ().Setup (fromUnit, name, message, mood, location, isWait, duration, function);
+		clone.transform.SetParent (mainCanvas.GetComponent<RectTransform> (), false);
 		clone.SetActive (false);
 
 		QueueTransmit.Enqueue (clone);
@@ -36,7 +38,6 @@ public class Transmission : MonoBehaviour {
 			ShowingTransmit = QueueTransmit.Dequeue ();
 			ShowingTransmit.SetActive (true);
 		}
-
 	}
 
 	public static void TransmitQueueRun(){

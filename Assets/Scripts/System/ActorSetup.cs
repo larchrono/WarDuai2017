@@ -44,6 +44,7 @@ public class ActorSetup : MonoBehaviour {
 				actor.baseInt = target.BaseInt;
 				actor.baseVit = target.BaseVit;
 				actor.baseAgi = target.BaseAgi;
+				actor.exp = target.EXP;
 
 				actor.equippedWeapon = target.EquippedWeapon;
 				actor.equippedArmor = target.EquippedArmor;

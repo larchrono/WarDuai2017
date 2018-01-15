@@ -598,7 +598,7 @@ public class BattleUI : MonoBehaviour {
 	IEnumerator RestartToWorld(){
 		yield return new WaitForSeconds (1.0f);
 		Destroy (GlobalData.Instance.gameObject);
-		SceneManager.LoadSceneAsync (0);
+		SceneManager.LoadSceneAsync ("Title");
 	}
 
 

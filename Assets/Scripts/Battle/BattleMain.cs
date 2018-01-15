@@ -230,6 +230,6 @@ public class BattleMain : MonoBehaviour {
 
 	IEnumerator BackToWorld(){
 		yield return new WaitForSeconds (1.0f);
-		SceneManager.LoadSceneAsync (0);
+		SceneManager.LoadSceneAsync ("Map_World_1");
 	}
 }

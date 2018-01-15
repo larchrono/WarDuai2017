@@ -45,6 +45,8 @@ public class SenceEnter3 : MonoBehaviour {
 		}
 	}
 
+	private bool isMovieFinish = false;
+
 	IEnumerator MovieWork(){
 		GlobalData.Instance.GameInState = GlobalData.GameStates.IN_MOVIE;
 		tipText = WorldMenuController.current.menuTip;
@@ -60,23 +62,14 @@ public class SenceEnter3 : MonoBehaviour {
 		darkFire.SetActive (true);
 		GlobalData.Instance.isDarkFireGateShow = true;
 		userInput.SetActive (false);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[0], "荷魯斯", "哇!!", "Stand", 0, true, 3);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[1], "奈芙蒂斯", "你這傢伙知道過去的方法嗎?", "Stand", 1, true, 5);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[0], "荷魯斯", "...", "Stand", 0, true, 3);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[1], "奈芙蒂斯", "等等，牠要過來了", "Stand", 1, true, 5);
+		Transmission.FromUnit (GlobalData.Instance.ActiveActors[0], "荷魯斯", "哇!!", "Stand", 0, false, 3);
+		Transmission.FromUnit (GlobalData.Instance.ActiveActors[1], "奈芙蒂斯", "你這傢伙知道過去的方法嗎?", "Stand", 1, false, 5);
+		Transmission.FromUnit (GlobalData.Instance.ActiveActors[0], "荷魯斯", "...", "Stand", 0, false, 3);
+		Transmission.FromUnit (GlobalData.Instance.ActiveActors[1], "奈芙蒂斯", "等等，牠要過來了", "Stand", 1, false, 5 , delegate() {
+			isMovieFinish = true;
+		});
 
-		yield return new WaitForSeconds (16f);
-		/*
-		Transmission.FromUnit (MonsterDataBase.MonsterData[2], "少年", "嗚......!\n姐姐長的很可愛卻異常的兇悍呢...", "Cry", 0, true, 5);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[1], "奈芙蒂斯", "......", "Angry", 1, true, 5);
-		Transmission.FromUnit (MonsterDataBase.MonsterData[3], "阿米特", "(舔舔舔)", "Stand", 1, true, 5);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[0], "荷魯斯", "哈哈哈阿米特要告訴我們到宮殿的路嗎?", "Smile", 0, true, 5);
-		Transmission.FromUnit (MonsterDataBase.MonsterData[2], "少年", "快把阿米特還我!!", "Stand", 1, true, 5);
-
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[1], "奈芙蒂斯", "和我一起到宮殿就把阿米特還你", "Smile", 0, true, 5);
-		Transmission.FromUnit (GlobalData.Instance.ActiveActors[0], "荷魯斯", "出發~~~!", "Stand", 0, true, 5);
-		Transmission.FromUnit (MonsterDataBase.MonsterData[2], "少年", "等等我啊! 可惡!", "Stand", 1, true, 5);
-		*/
+		yield return new WaitUntil (() => isMovieFinish);
 
 		userInput.SetActive (true);
 		GlobalData.Instance.movie_2_active = false;

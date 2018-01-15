@@ -46,9 +46,9 @@ public class WorldMonsterAct : ExtendBehaviour {
 			SoundCollect.current.Play (SoundCollect.current.SNDEncounting);
 
 			if (monsterType == 5)
-				LoadSceneAsyncDelay (2, 1.0f);
+				LoadSceneAsyncDelay ("BattleBoss", 1.0f);
 			else
-				LoadSceneAsyncDelay (1, 1.0f);
+				LoadSceneAsyncDelay ("BattleSence", 1.0f);
 		}
 	}
 }

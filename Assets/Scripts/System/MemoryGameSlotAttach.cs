@@ -26,7 +26,7 @@ public class MemoryGameSlotAttach : MonoBehaviour {
 	public Image[] Slots;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		NoData.gameObject.SetActive (true);
 		Chapter.gameObject.SetActive (false);
 		Level.gameObject.SetActive (false);

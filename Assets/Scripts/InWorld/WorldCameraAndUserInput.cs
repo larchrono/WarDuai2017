@@ -23,6 +23,11 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 	private float camXRotateMax = 54.0f;
 	private float camXRotateMin = -15.0f;
 
+	void Awake(){
+		camXRotate = GlobalData.Instance.WorldCameraRotateAngle.x;
+		camYRotate = GlobalData.Instance.WorldCameraRotateAngle.y;
+	}
+
 	// Use this for initialization
 	void Start () {
 		cameraDistance = new Vector3 (0, 3, -5);
@@ -76,6 +81,11 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 			if(camXRotate > camXRotateMax) camXRotate = camXRotateMax;
 		}
 			
+		GlobalData.Instance.WorldCameraRotateAngle = new Vector2 (camXRotate,camYRotate);
+	}
+
+	public Vector2 GetCameraFace(){
+		return new Vector2 (camXRotate,camYRotate);
 	}
 
 }

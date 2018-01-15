@@ -47,29 +47,8 @@ public class TitleScript : MonoBehaviour {
 	}
 
 	public void BTN_SaveGame(){
-		DataMemory memo = new DataMemory ();
-		SaveLoad.nowWorkingMemory = memo;
-
-		memo.chapter = GlobalData.Instance.chapter;
-		memo.locat = GlobalData.Instance.locat;
-
-		memo.playedTime = GlobalData.Instance.playTime;
-		memo.gold = GlobalData.Instance.goldCarry;
-
-		memo.inventoryConsumable = GlobalData.Instance.InventoryConsumable;
-		memo.inventoryEquipment = GlobalData.Instance.InventoryEquipment;
-		memo.inventoryPrecious = GlobalData.Instance.InventoryPrecious;
-
-		memo.savedTime = DateTime.Now;
-
-		//All actors info will be saved to memo
-		ActorSetup.SaveToMemory ();
-
-		//
-		SaveLoad.memorySlot = 0;
-		SaveLoad.M_SaveGame ();
+		SaveTool.SaveNowGlobalToFile (0);
 	}
-
 
 	public void OnCancel()
 	{

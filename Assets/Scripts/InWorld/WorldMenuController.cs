@@ -23,6 +23,8 @@ public class WorldMenuController : MonoBehaviour {
 
 	public GameObject _debugMessage;
 
+	public GameObject MainActorObject;
+	public GameObject MainActorController;
 	// Refference for UI control
 	public GameObject mainCam;
 	public GameObject worldUserInput;
@@ -50,6 +52,7 @@ public class WorldMenuController : MonoBehaviour {
 	public GameObject firstMagicUseAim;
 	public GameObject firstMagicUseTargetAim;
 	public GameObject firstItemTypeAim;
+	public GameObject firstSaveSlotAim;
 	public GameObject firstItemAim;
 	public GameObject firstNowEqAim;
 	public GameObject firstEqAim;
@@ -62,6 +65,7 @@ public class WorldMenuController : MonoBehaviour {
 	public GameObject magicButtoms;
 	public GameObject magicTargetButtoms;
 	public GameObject itemTypeButtons;
+	public GameObject SaveGameSlots;
 	public GameObject itemsButtons;
 	public GameObject nowEquipButtons;
 	public GameObject equipmentButtons;
@@ -135,6 +139,9 @@ public class WorldMenuController : MonoBehaviour {
 
 		itemTypeButtons.AddComponent<PanelData> ().firstAim = firstItemTypeAim;
 		itemTypeButtons.GetComponent<PanelData> ().panelName = "InItem";
+
+		SaveGameSlots.AddComponent<PanelData> ().firstAim = firstSaveSlotAim;
+		SaveGameSlots.GetComponent<PanelData>().panelName = "InSystem";
 
 		itemsButtons.AddComponent<PanelData> ().firstAim = firstItemAim;
 		itemsButtons.GetComponent<PanelData> ().panelName = "InItemList";
@@ -231,6 +238,9 @@ public class WorldMenuController : MonoBehaviour {
 		// stop world actor control
 		worldUserInput.SetActive (false);
 
+		//Save global Actor Position
+		GlobalData.Instance.PositionBeforeBattle = MainActorObject.transform.position;
+
 		//set basic panel section
 		mainMenu.SetActive(true);
 		mainPanel.SetActive (true);
@@ -308,6 +318,11 @@ public class WorldMenuController : MonoBehaviour {
 			itemPanel.SetActive (false);
 			mainPanel.SetActive (true);
 		}
+		if (inPanelName == "InSystem") {
+			inPanelName = "Main";
+			systemPanel.SetActive (false);
+			mainPanel.SetActive (true);
+		}
 		if (inPanelName == "InEquip") {
 			inPanelName = "Equip";
 			equipPanel.SetActive (false);
@@ -343,6 +358,32 @@ public class WorldMenuController : MonoBehaviour {
 		allTextObject.itemCurrentInfo.text = "";
 		mainPanel.SetActive (false);
 		itemPanel.SetActive (true);
+	}
+
+	public void MenuToSystem(){
+		FromPanelToPanel (commandButtoms, SaveGameSlots);
+		mainPanel.SetActive (false);
+		systemPanel.SetActive (true);
+		CheckSaveDataList ();
+	}
+
+	public void CheckSaveDataList(){
+		for (int i = 0; i < 5; i++) {
+			SaveLoad.memorySlot = i;
+			DataMemory memo = SaveLoad.M_LoadGame ();
+			MemoryGameSlotAttach slot = systemPanel.GetComponent<LoadGamePanelAttach> ().memorySlot [i].GetComponent<MemoryGameSlotAttach> ();
+
+			//Save is null when chapter is zero . when not setup , it will be null
+			if (memo.chapter != 0)
+				slot.SetupMemory (memo);
+		}
+	}
+
+	public void SaveSlotSelected(int slot){
+		SaveTool.SaveNowGlobalToFile (slot);
+		CheckSaveDataList ();
+		Instantiate(GameResource.Prefab.UIMessageSaveOK).transform.SetParent(GameObject.Find ("Canvas").GetComponent<RectTransform>(),false);
+		//clone.transform.SetParent (mainCanvas.GetComponent<RectTransform>(),false);
 	}
 
 	public void ActorMemberSlotSelected(int slot){
@@ -911,7 +952,7 @@ public class WorldMenuController : MonoBehaviour {
 		equipPanel.SetActive (false);
 		skillPanel.SetActive (false);
 		statusPanel.SetActive (false);
-		//systemPanel.SetActive (false);
+		systemPanel.SetActive (false);
 
 		commandButtoms.GetComponent<PanelData> ().memoryAim = null;
 		actorButtoms.GetComponent<PanelData> ().memoryAim = null;

@@ -19,6 +19,10 @@ public class DataMemory {
 
 	public List<ActorData> actors = new List<ActorData> ();
 
+	// Actor Position
+	public Vector3 savePosition;
+	public Vector2 cameraRotateAngle;
+
 	//int [] gems;
 
 

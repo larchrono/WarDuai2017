@@ -79,6 +79,7 @@ public class GlobalData : MonoBehaviour {
 	private int battleMonsterNumber = 1;
 	private int battleMonsterType = 2;
 	private Vector3 positionBeforeBattle = new Vector3(500,100,500);
+	public Vector2 WorldCameraRotateAngle;
 
 	void Update () {
 		playTime += Time.unscaledDeltaTime;
@@ -231,5 +232,8 @@ public class GlobalData : MonoBehaviour {
 		InventoryPrecious = memo.inventoryPrecious;
 
 		ActorSetup.SetupFromMemory (memo);
+
+		PositionBeforeBattle = memo.savePosition;
+		WorldCameraRotateAngle = memo.cameraRotateAngle;
 	}
 }

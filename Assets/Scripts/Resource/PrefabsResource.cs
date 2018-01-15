@@ -32,6 +32,8 @@ public class PrefabsResource {
 
 	public GameObject UIBattleRunLineIcon;
 
+	public GameObject UIMessageSaveOK;
+
 	public GameObject ModelBattleHorus;
 	public GameObject ModelBattleNephthys;
 
@@ -71,6 +73,8 @@ public class PrefabsResource {
 		UITextMPCost = Resources.Load ("Prefabs/UI/Battle/TextMPCostValue") as GameObject;
 
 		UIBattleRunLineIcon = Resources.Load ("Prefabs/UI/Battle/RunLineIcon") as GameObject;
+
+		UIMessageSaveOK = Resources.Load ("Prefabs/UI/MessageSaveOK") as GameObject;
 
 
 		ModelBattleHorus = Resources.Load ("Prefabs/PlayerModel/Horus") as GameObject;

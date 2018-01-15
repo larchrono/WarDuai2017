@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,9 @@ public class TitleScript : MonoBehaviour {
 	public GameObject mainPanel;
 	public GameObject continueButton;
 	public GameObject loadGamePanel;
+
+	public Image titleBG;
+	float BGA = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -34,6 +38,14 @@ public class TitleScript : MonoBehaviour {
 		if (Input.GetMouseButtonDown (1)) {
 			OnCancel ();
 		}
+		/*
+		if (BGA <= 255) {
+			BGA = Mathf.Min (255, BGA + Time.deltaTime * 3f);
+		} else {
+			
+		}
+		titleBG.color = new Color (255, 255, 255, BGA);
+		*/
 	}
 
 	public void BTN_NewGame(){

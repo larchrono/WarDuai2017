@@ -138,6 +138,11 @@ public class BattleUI : MonoBehaviour {
 				KEYEVENT_PRESS_A (this,new PressEventArgs(){});
 			}
 		}
+		if (Input.GetMouseButtonDown(0)){
+			if (KEYEVENT_PRESS_A != null) {
+				KEYEVENT_PRESS_A (this,new PressEventArgs(){});
+			}
+		}
 		if (Input.GetButtonDown("B")){
 			if (KEYEVENT_PRESS_B != null) {
 				KEYEVENT_PRESS_B (this,new PressEventArgs(){PanelBeforeWork = nowWorkPanel});

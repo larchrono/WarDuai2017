@@ -39,6 +39,7 @@ public class MemoryGameSlotAttach : MonoBehaviour {
 		Slots[1].gameObject.SetActive (false);
 		Slots[2].gameObject.SetActive (false);
 		Slots[3].gameObject.SetActive (false);
+		Debug.Log ("Slot Menu Set false");
 	}
 
 	public void SetupMemory(DataMemory memo){
@@ -46,6 +47,7 @@ public class MemoryGameSlotAttach : MonoBehaviour {
 		int level = memo.actors [0].level;
 		SetupData (memo.chapter,level,memo.locat,memo.playedTime,memo.savedTime);
 		SetupActor (memo.actors.Count);
+		Debug.Log ("Slot Menu Setup OK");
 	}
 
 	public void SetupData(int cht,int level,string locat,float playTime,DateTime savedTime){

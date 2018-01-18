@@ -23,9 +23,10 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 	private float camXRotateMax = 54.0f;
 	private float camXRotateMin = -15.0f;
 
+	private Vector3 dragOrigin;
+
 	void Awake(){
-		camXRotate = GlobalData.Instance.WorldCameraRotateAngle.x;
-		camYRotate = GlobalData.Instance.WorldCameraRotateAngle.y;
+		
 	}
 
 	// Use this for initialization
@@ -34,6 +35,8 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 		mainCam.transform.position = targetActor.transform.position + cameraDistance;
 		aimForCamera = targetActor.GetComponent<WorldActorAct> ().aimForCamera;
 		cameraDistance = mainCam.transform.position - targetActor.transform.position;
+		camXRotate = GlobalData.Instance.WorldCameraRotateAngle.x;
+		camYRotate = GlobalData.Instance.WorldCameraRotateAngle.y;
 	}
 	
 	// Update is called once per frame
@@ -73,7 +76,9 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 		if (Input.GetButton("R")) {
 			camYRotate += camYRotateSpeed * Time.deltaTime;
 		}
-
+		if (Input.GetMouseButton (0)) {
+			camYRotate += camYRotateSpeed * Time.deltaTime * Input.GetAxis ("Mouse X");
+		}
 		//if (Input.GetKey (KeyCode.Q)) {
 		if (Input.GetButton("L2")) {
 			camXRotate -= camYRotateSpeed * Time.deltaTime;
@@ -83,6 +88,10 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 		if (Input.GetButton("R2")) {
 			camXRotate += camYRotateSpeed * Time.deltaTime;
 			if(camXRotate > camXRotateMax) camXRotate = camXRotateMax;
+		}
+		if (Input.GetAxis ("Mouse ScrollWheel") != 0) {
+			camXRotate += camYRotateSpeed * Time.deltaTime * Input.GetAxis("Mouse ScrollWheel") * 10f;
+			camXRotate = Mathf.Clamp (camXRotate, camXRotateMin, camXRotateMax);
 		}
 			
 		GlobalData.Instance.WorldCameraRotateAngle = new Vector2 (camXRotate,camYRotate);

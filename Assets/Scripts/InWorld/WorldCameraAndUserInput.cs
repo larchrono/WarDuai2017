@@ -65,18 +65,22 @@ public class WorldCameraAndUserInput : MonoBehaviour {
 		targetActor.GetComponent<WorldActorAct> ().Move (camViewActorMove);
 
 		//for rotate
-		if (Input.GetKey (KeyCode.Keypad4)) {
+		//if (Input.GetKey (KeyCode.Keypad4)) {
+		if (Input.GetButton("L")) {
 			camYRotate -= camYRotateSpeed * Time.deltaTime;
 		}
-		if (Input.GetKey (KeyCode.Keypad6)){
+		//if (Input.GetKey (KeyCode.Keypad6)){
+		if (Input.GetButton("R")) {
 			camYRotate += camYRotateSpeed * Time.deltaTime;
 		}
 
-		if (Input.GetKey (KeyCode.Q)) {
+		//if (Input.GetKey (KeyCode.Q)) {
+		if (Input.GetButton("L2")) {
 			camXRotate -= camYRotateSpeed * Time.deltaTime;
 			if(camXRotate < camXRotateMin) camXRotate = camXRotateMin;
 		}
-		if (Input.GetKey (KeyCode.E)){
+		//if (Input.GetKey (KeyCode.E)){
+		if (Input.GetButton("R2")) {
 			camXRotate += camYRotateSpeed * Time.deltaTime;
 			if(camXRotate > camXRotateMax) camXRotate = camXRotateMax;
 		}

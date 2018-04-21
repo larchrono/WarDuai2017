@@ -57,6 +57,7 @@ public class UIActorData : MonoBehaviour {
 				_exp_base = EXPTable.Normal.GetThisLevelBaseExp (UIUSE_level);
 				_exp_end = EXPTable.Normal.GetToNextEXP (UIUSE_level);
 				_expbar_now = (_exp_now - _exp_base) / (_exp_end - _exp_base);
+				SoundCollect.current.SNDLevelUp.Play ();
 			}
 			EXP_Bar.rectTransform.localScale = new Vector3 (_expbar_now, 1, 1);
 		}
@@ -65,6 +66,7 @@ public class UIActorData : MonoBehaviour {
 	public void AddExpAnim(int mount){
 		_expget = mount;
 		_expget_remain = (float)mount;
+		SoundCollect.current.SNDExpGet.Play ();
 	}
 
 	void Update () {
@@ -80,6 +82,7 @@ public class UIActorData : MonoBehaviour {
 
 				Debug.Log ("now exp :" + _exp_now);
 			}
-		}
+		} else 
+			SoundCollect.current.SNDExpGet.Stop ();
 	}
 }

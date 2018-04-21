@@ -26,6 +26,9 @@ public class UISelect : MonoBehaviour , ISelectHandler , IDeselectHandler {
 		nowArrow.transform.SetParent (this.GetComponent<RectTransform>(),false);
 		nowArrow.GetComponent<RectTransform> ().anchorMin = new Vector2 (location,0.5f);
 		nowArrow.GetComponent<RectTransform> ().anchorMax = new Vector2 (location,0.5f);
+
+		if (GlobalData.Instance.GameInState == GlobalData.GameStates.IN_WORLD && GetComponent<UISound> () == null)
+			gameObject.AddComponent<UISound> ().PlaySound();
 	}
 
 	public void OnDeselect(BaseEventData eventData)

@@ -11,6 +11,8 @@ public class MusicController : MonoBehaviour {
 	private float originVolume;
 	private WorkTypes workType;
 
+	int invokeTime = 0;
+
 	private enum WorkTypes
 	{
 		STAY,
@@ -27,6 +29,13 @@ public class MusicController : MonoBehaviour {
 		bgm = GetComponent<AudioSource> ();
 		if (bgm != null)
 			originVolume = bgm.volume;
+
+		if (GlobalData.Instance.GameInState == GlobalData.GameStates.IN_WORLD){
+			bgm.time = GlobalData.Instance.worldBGMTime;
+			bgm.volume = 0;
+			InvokeRepeating ("FadeIn", 0.25f, 0.25f);
+		}
+		bgm.Play ();
 	}
 	
 	// Update is called once per frame
@@ -40,5 +49,16 @@ public class MusicController : MonoBehaviour {
 
 	public void FadeOut(){
 		workType = WorkTypes.FADE_OUT;
+	}
+
+	void FadeIn(){
+		bgm.volume = Mathf.Min (bgm.volume + 0.05f, originVolume);
+		invokeTime++;
+		if(invokeTime > 20)
+			CancelInvoke ();
+	}
+
+	public AudioSource BGM {
+		get { return bgm; }
 	}
 }

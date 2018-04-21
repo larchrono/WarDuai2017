@@ -22,6 +22,29 @@ public class TransmissionObject : MonoBehaviour {
 	
 	}
 
+	public void Setup(Sprite icon, string name,string context, int location, bool isWait, double dur, Transmission.ActionCallback function){
+		_name.text = name;
+		_context.text = context;
+		_isWait = isWait;
+		_dur = (float)dur;
+		callback = function;
+
+		if (location == 1) {
+			_unitImage.rectTransform.anchorMin = new Vector2 (0.5f, 0.2f);
+			_unitImage.rectTransform.anchorMax = new Vector2 (0.9f, 0.9f);
+			_namePanel.rectTransform.anchorMin = new Vector2 (0.7f, 0.3f);
+			_namePanel.rectTransform.anchorMax = new Vector2 (0.9f, 0.36f);
+			_unitImage.rectTransform.localScale = new Vector3 (-1, 1, 1);
+		}
+		if (isWait) {
+			_continueArrow.gameObject.SetActive (false);
+		}
+
+		if (icon != null) {
+			_unitImage.sprite = icon;
+		}
+	}
+
 	public void Setup(BasicActorClass unit, string name,string context, string mood,int location, bool isWait, double dur, Transmission.ActionCallback function){
 		_unit = unit;
 		_name.text = name;
@@ -41,11 +64,12 @@ public class TransmissionObject : MonoBehaviour {
 			_continueArrow.gameObject.SetActive (false);
 		}
 
-		if (_unit.Photos.ContainsKey(mood)) {
-			_unitImage.sprite = _unit.Photos [mood];
-		} else 
-			_unitImage.sprite = _unit.Photo;
-
+		if (_unit != null) {
+			if (_unit.Photos.ContainsKey (mood)) {
+				_unitImage.sprite = _unit.Photos [mood];
+			} else
+				_unitImage.sprite = _unit.Photo;
+		}
 	}
 
 	void Update() {
@@ -67,7 +91,8 @@ public class TransmissionObject : MonoBehaviour {
 
 	void OnEnable()
 	{
-		StartCoroutine (AutoTransmit(_dur));
+		if(_dur != 0)
+			StartCoroutine (AutoTransmit(_dur));
 	}
 
 	void Finish(){

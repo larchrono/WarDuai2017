@@ -96,4 +96,8 @@ public class WorldActorAct : MonoBehaviour {
 		}
 		return false;
 	}
+
+	public bool isGround {
+		get { return m_IsGrounded; }
+	}
 }

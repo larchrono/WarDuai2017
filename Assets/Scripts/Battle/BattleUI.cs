@@ -563,6 +563,9 @@ public class BattleUI : MonoBehaviour {
 		if (nowWorkPanel == panelResult && nowWorkPanel != null) {
 			if (!_resultCancelSubmit) {
 				_resultCancelSubmit = true;
+
+				SoundCollect.current.SNDSubmit.Play ();
+
 				if (BattleMain.EVENT_EXIT_BATTLE != null)
 					BattleMain.EVENT_EXIT_BATTLE (this, new ActionUnitArgs (){ });
 			}
@@ -659,6 +662,8 @@ public class BattleUI : MonoBehaviour {
 
 			PanelOrder.GetComponent<PanelReference> ().Show ();
 			PanelOrder.GetComponent<Animator> ().Play ("PanelOrderEnter");
+
+			SoundCollect.current.SNDBattleReady.Play ();
 
 			EventSystem.current.SetSelectedGameObject(ManuButtonAttack);
 		}

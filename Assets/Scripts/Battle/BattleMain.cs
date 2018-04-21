@@ -79,8 +79,6 @@ public class BattleMain : MonoBehaviour {
 	//控制目前增到第幾位的時間
 	int passId = 0;
 
-	bool startLeaving = false;
-
 	void Awake() {
 		EVENT_PLAYER_UNIT_ISSUED_ORDER = null;
 		EVENT_PLAYER_UNIT_ISSUED_TARGET_ORDER = null;
@@ -97,6 +95,8 @@ public class BattleMain : MonoBehaviour {
 		EVENT_ANYUNIT_STATUS_UPDATE = null;
 		EVENT_ACTOR_BEGIN_ATTACK = null;
 
+		GlobalData.Instance.GameInState = GlobalData.GameStates.IN_BATTLE;
+
 		current = this;
 	}
 
@@ -109,8 +109,6 @@ public class BattleMain : MonoBehaviour {
 		memberEnemy = GlobalData.Instance.BattleMonsterNumber;
 		memberEnemy = GlobalData.Instance.BattleMonsterNumber;
 		monsterTypeId = GlobalData.Instance.BattleMonsterType;
-
-
 
 		expGet = 0;
 		timepass = true;

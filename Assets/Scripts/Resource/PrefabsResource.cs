@@ -34,6 +34,8 @@ public class PrefabsResource {
 
 	public GameObject UIMessageSaveOK;
 
+	public GameObject UINpcArrow;
+
 	public GameObject ModelBattleHorus;
 	public GameObject ModelBattleNephthys;
 
@@ -76,6 +78,7 @@ public class PrefabsResource {
 
 		UIMessageSaveOK = Resources.Load ("Prefabs/UI/MessageSaveOK") as GameObject;
 
+		UINpcArrow = Resources.Load ("Prefabs/UI/NpcArrow") as GameObject;
 
 		ModelBattleHorus = Resources.Load ("Prefabs/PlayerModel/Horus") as GameObject;
 		ModelBattleNephthys = Resources.Load ("Prefabs/PlayerModel/Nephthys") as GameObject;

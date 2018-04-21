@@ -103,6 +103,9 @@ public class WorldMenuController : MonoBehaviour {
 	//actor info
 	private const int totalSlot = 4;
 
+	//For sound use , let button dosen't play sound when fade menu
+	public bool noSelect = false;
+
 
 	void Awake(){
 		EVENT_PLAYER_ENTER_MENU = null;
@@ -193,12 +196,17 @@ public class WorldMenuController : MonoBehaviour {
 			// call menu
 			if (Input.GetButtonDown("Cancel")){
 
-				if (GlobalData.Instance.GameInState != GlobalData.GameStates.IN_MOVIE) {
+				if (GlobalData.Instance.GameInState == GlobalData.GameStates.IN_WORLD) {
 					// for menu update data
-					if (isMenuShow)
+					if (isMenuShow) {
+						noSelect = true;
+						SoundCollect.current.SNDMenuClose.Play ();
 						MenuCancel ();
-					else
+					} else {
+						noSelect = true;
+						SoundCollect.current.SNDMenuOpen.Play ();
 						MenuShow ();
+					}
 				}
 			}
 
@@ -966,6 +974,8 @@ public class WorldMenuController : MonoBehaviour {
 		statusButtons.GetComponent<PanelData> ().memoryAim = null;
 
 	}
+
+
 
 	///////////////
 	// setter & getter

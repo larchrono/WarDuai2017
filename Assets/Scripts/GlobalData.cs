@@ -56,7 +56,8 @@ public class GlobalData : MonoBehaviour {
 	{
 		IN_WORLD,
 		IN_BATTLE,
-		IN_MOVIE
+		IN_MOVIE,
+		IN_TALK
 	}
 	private GameStates gameStats;
 
@@ -80,6 +81,7 @@ public class GlobalData : MonoBehaviour {
 	private int battleMonsterType = 2;
 	private Vector3 positionBeforeBattle = new Vector3(500,100,500);
 	public Vector2 WorldCameraRotateAngle;
+	public float worldBGMTime = 0;
 
 	void Update () {
 		playTime += Time.unscaledDeltaTime;

@@ -26,7 +26,7 @@ public class WorldMonsterAct : ExtendBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.name != "MainActor")
+		if (other.gameObject.tag != "Player")
 			return;
 		if (GlobalData.Instance.Invincible == false) {
 			GlobalData.Instance.Invincible = true;
@@ -39,6 +39,7 @@ public class WorldMonsterAct : ExtendBehaviour {
 			GlobalData.Instance.BattleMonsterNumber = monsterNum;
 			GlobalData.Instance.BattleMonsterType = monsterType;
 			GlobalData.Instance.PositionBeforeBattle = other.gameObject.transform.position;
+			GlobalData.Instance.worldBGMTime = MusicController.current.BGM.time;
 
 			mapData.mainCamera.GetComponent<WorldCameraAct> ().CreateBattleBlur ();
 			GameCamera.FadeOut (0.5f, 20f);

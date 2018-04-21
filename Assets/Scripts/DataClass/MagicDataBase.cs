@@ -56,11 +56,11 @@ public static class MagicDataBase {
 		id = 21;
 		MagicData [id] = new MagicClass ();
 		MagicData [id].Name = "極凍凝結";
-		MagicData [id].Description = "將火元素轉換為水元素";
+		MagicData [id].Description = "將光元素轉換為水元素";
 		MagicData [id].Icon = GameResource.Sprite.BTN_Nephthys_Magic_1;
 		MagicData [id].MpCost = 6;
 		MagicData [id].Effect = MagicClass.MagicEffect.CONVERT;
-		MagicData [id].FromType = GemData.GemType.FIRE;
+		MagicData [id].FromType = GemData.GemType.SUN;
 		MagicData [id].ToType = GemData.GemType.WATER;
 
 		id = 22;

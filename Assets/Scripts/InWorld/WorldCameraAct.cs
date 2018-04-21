@@ -49,7 +49,8 @@ public class WorldCameraAct : MonoBehaviour {
 			Texture2D tex = new Texture2D(Screen.width, Screen.height);
 			tex.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
 			tex.Apply();
-			ins.GetComponent<ScreenBlurAct> ().child.GetComponent<Image>().sprite = Sprite.Create(tex,new Rect(0,0,Screen.width,Screen.height),new Vector2(0,0));
+			if(ins != null)
+				ins.GetComponent<ScreenBlurAct> ().child.GetComponent<Image>().sprite = Sprite.Create(tex,new Rect(0,0,Screen.width,Screen.height),new Vector2(0,0));
 			grabBlur = false;
 		}
 	}

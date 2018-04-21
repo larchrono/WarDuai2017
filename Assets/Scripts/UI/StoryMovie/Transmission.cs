@@ -21,6 +21,24 @@ public class Transmission : MonoBehaviour {
 			QueueTransmit = new Queue<GameObject> ();
 		}
 	}
+
+	public static void FromUnit(Sprite sprite,string name,string message,int location, bool isWait , double duration , ActionCallback function = null){
+		
+		CheckSetup ();
+		GameObject mainCanvas = GameObject.Find ("Canvas");
+
+		GameObject clone = (GameObject)Instantiate(transmisionObject, Vector3.zero, Quaternion.identity);
+		clone.GetComponent<TransmissionObject> ().Setup (sprite, name, message, location, isWait, duration, function);
+		clone.transform.SetParent (mainCanvas.GetComponent<RectTransform> (), false);
+		clone.SetActive (false);
+
+		QueueTransmit.Enqueue (clone);
+
+		if (ShowingTransmit == null) {
+			ShowingTransmit = QueueTransmit.Dequeue ();
+			ShowingTransmit.SetActive (true);
+		}
+	}
 	
 	public static void FromUnit(BasicActorClass fromUnit,string name,string message,string mood,int location, bool isWait , double duration , ActionCallback function = null){
 

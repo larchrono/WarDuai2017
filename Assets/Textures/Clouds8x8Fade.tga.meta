@@ -1,0 +1,1251 @@
+fileFormatVersion: 2
+guid: 9bb3c836ffc8902459945c257e27b938
+timeCreated: 1524176467
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Clouds8x8Fade_0
+    21300002: Clouds8x8Fade_1
+    21300004: Clouds8x8Fade_2
+    21300006: Clouds8x8Fade_3
+    21300008: Clouds8x8Fade_4
+    21300010: Clouds8x8Fade_5
+    21300012: Clouds8x8Fade_6
+    21300014: Clouds8x8Fade_7
+    21300016: Clouds8x8Fade_8
+    21300018: Clouds8x8Fade_9
+    21300020: Clouds8x8Fade_10
+    21300022: Clouds8x8Fade_11
+    21300024: Clouds8x8Fade_12
+    21300026: Clouds8x8Fade_13
+    21300028: Clouds8x8Fade_14
+    21300030: Clouds8x8Fade_15
+    21300032: Clouds8x8Fade_16
+    21300034: Clouds8x8Fade_17
+    21300036: Clouds8x8Fade_18
+    21300038: Clouds8x8Fade_19
+    21300040: Clouds8x8Fade_20
+    21300042: Clouds8x8Fade_21
+    21300044: Clouds8x8Fade_22
+    21300046: Clouds8x8Fade_23
+    21300048: Clouds8x8Fade_24
+    21300050: Clouds8x8Fade_25
+    21300052: Clouds8x8Fade_26
+    21300054: Clouds8x8Fade_27
+    21300056: Clouds8x8Fade_28
+    21300058: Clouds8x8Fade_29
+    21300060: Clouds8x8Fade_30
+    21300062: Clouds8x8Fade_31
+    21300064: Clouds8x8Fade_32
+    21300066: Clouds8x8Fade_33
+    21300068: Clouds8x8Fade_34
+    21300070: Clouds8x8Fade_35
+    21300072: Clouds8x8Fade_36
+    21300074: Clouds8x8Fade_37
+    21300076: Clouds8x8Fade_38
+    21300078: Clouds8x8Fade_39
+    21300080: Clouds8x8Fade_40
+    21300082: Clouds8x8Fade_41
+    21300084: Clouds8x8Fade_42
+    21300086: Clouds8x8Fade_43
+    21300088: Clouds8x8Fade_44
+    21300090: Clouds8x8Fade_45
+    21300092: Clouds8x8Fade_46
+    21300094: Clouds8x8Fade_47
+    21300096: Clouds8x8Fade_48
+    21300098: Clouds8x8Fade_49
+    21300100: Clouds8x8Fade_50
+    21300102: Clouds8x8Fade_51
+    21300104: Clouds8x8Fade_52
+    21300106: Clouds8x8Fade_53
+    21300108: Clouds8x8Fade_54
+    21300110: Clouds8x8Fade_55
+    21300112: Clouds8x8Fade_56
+    21300114: Clouds8x8Fade_57
+    21300116: Clouds8x8Fade_58
+    21300118: Clouds8x8Fade_59
+    21300120: Clouds8x8Fade_60
+    21300122: Clouds8x8Fade_61
+    21300124: Clouds8x8Fade_62
+    21300126: Clouds8x8Fade_63
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clouds8x8Fade_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Clouds8x8Fade_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -56, y: -99}
+      - {x: -60, y: -103}
+      - {x: -64, y: -102}
+      - {x: -56, y: -99}
+      - {x: -40, y: -99}
+      - {x: -37, y: -98}
+      - {x: -33, y: -104}
+      - {x: -34, y: -128}
+      - {x: -8, y: -128}
+      - {x: -5, y: -126}
+      - {x: -3, y: -122}
+      - {x: 2, y: -122}
+      - {x: 0, y: -122}
+      - {x: -2, y: -124}
+      - {x: -2, y: -128}
+      - {x: 26, y: -128}
+      - {x: 26, y: -123}
+      - {x: 30, y: -128}
+      - {x: 59, y: -128}
+      - {x: 59, y: -127}
+      - {x: 61, y: -119}
+      - {x: 65, y: -122}
+      - {x: 67, y: -122}
+      - {x: 64, y: -122}
+      - {x: 62, y: -124}
+      - {x: 62, y: -128}
+      - {x: 119, y: -128}
+      - {x: 128, y: -120}
+      - {x: 128, y: 128}
+      - {x: -128, y: 128}
+      - {x: -128, y: -128}
+      - {x: -38, y: -128}
+      - {x: -34, y: -121}
+      - {x: -35, y: -104}
+      - {x: -39, y: -99}
+    physicsShape:
+    - - {x: -106, y: 15}
+      - {x: -103, y: 16}
+      - {x: -103, y: 19}
+      - {x: -106, y: 20}
+      - {x: -108, y: 18}
+    - - {x: -85, y: 19}
+      - {x: -82, y: 20}
+      - {x: -82, y: 23}
+      - {x: -85, y: 24}
+      - {x: -87, y: 22}
+    - - {x: -111, y: 41}
+      - {x: -106, y: 40}
+      - {x: -103, y: 41}
+      - {x: -102, y: 46}
+      - {x: -105, y: 48}
+      - {x: -112, y: 44}
+    - - {x: -122, y: 45}
+      - {x: -122, y: 43}
+      - {x: -120, y: 41}
+      - {x: -119, y: 41}
+      - {x: -116, y: 44}
+      - {x: -117, y: 47}
+      - {x: -120, y: 47}
+    - - {x: -83, y: 57}
+      - {x: -90, y: 54}
+      - {x: -90, y: 41}
+      - {x: -84, y: 41}
+      - {x: -81, y: 42}
+      - {x: -80, y: 46}
+      - {x: -80, y: 57}
+    - - {x: -77, y: 53}
+      - {x: -77, y: 44}
+      - {x: -76, y: 42}
+      - {x: -74, y: 42}
+      - {x: -72, y: 43}
+      - {x: -71, y: 48}
+      - {x: -71, y: 51}
+      - {x: -74, y: 54}
+    - - {x: -60, y: 46}
+      - {x: -59, y: 44}
+      - {x: -57, y: 42}
+      - {x: -55, y: 42}
+      - {x: -48, y: 47}
+      - {x: -48, y: 52}
+      - {x: -50, y: 55}
+      - {x: -54, y: 55}
+      - {x: -60, y: 50}
+    - - {x: -42, y: 42}
+      - {x: -39, y: 43}
+      - {x: -39, y: 46}
+      - {x: -42, y: 47}
+      - {x: -44, y: 45}
+    - - {x: 116, y: 45}
+      - {x: 118, y: 43}
+      - {x: 121, y: 44}
+      - {x: 121, y: 50}
+      - {x: 119, y: 52}
+      - {x: 116, y: 51}
+    - - {x: -45, y: 51}
+      - {x: -42, y: 47}
+      - {x: -39, y: 49}
+      - {x: -40, y: 53}
+      - {x: -42, y: 55}
+      - {x: -45, y: 54}
+    - - {x: -23, y: 54}
+      - {x: -25, y: 52}
+      - {x: -25, y: 49}
+      - {x: -23, y: 47}
+      - {x: -20, y: 47}
+      - {x: -18, y: 49}
+      - {x: -18, y: 50}
+      - {x: -22, y: 54}
+    - - {x: -117, y: 56}
+      - {x: -120, y: 55}
+      - {x: -120, y: 50}
+      - {x: -118, y: 49}
+      - {x: -115, y: 49}
+      - {x: -114, y: 51}
+      - {x: -114, y: 54}
+      - {x: -115, y: 56}
+    - - {x: 74, y: 89}
+      - {x: 73, y: 88}
+      - {x: 73, y: 82}
+      - {x: 79, y: 75}
+      - {x: 83, y: 71}
+      - {x: 89, y: 71}
+      - {x: 90, y: 72}
+      - {x: 91, y: 74}
+      - {x: 91, y: 82}
+      - {x: 83, y: 89}
+    - - {x: 52, y: 89}
+      - {x: 44, y: 89}
+      - {x: 41, y: 87}
+      - {x: 41, y: 84}
+      - {x: 44, y: 81}
+      - {x: 50, y: 72}
+      - {x: 55, y: 73}
+      - {x: 59, y: 76}
+      - {x: 59, y: 78}
+      - {x: 57, y: 88}
+    - - {x: 119, y: 86}
+      - {x: 112, y: 89}
+      - {x: 109, y: 89}
+      - {x: 104, y: 87}
+      - {x: 104, y: 81}
+      - {x: 105, y: 79}
+      - {x: 115, y: 72}
+      - {x: 117, y: 72}
+      - {x: 122, y: 75}
+      - {x: 122, y: 82}
+    - - {x: -13, y: 77}
+      - {x: -13, y: 76}
+      - {x: -10, y: 73}
+      - {x: -7, y: 74}
+      - {x: -6, y: 78}
+      - {x: -8, y: 80}
+      - {x: -10, y: 80}
+    - - {x: -45, y: 74}
+      - {x: -41, y: 74}
+      - {x: -37, y: 76}
+      - {x: -37, y: 82}
+      - {x: -38, y: 84}
+      - {x: -41, y: 84}
+      - {x: -45, y: 81}
+    - - {x: 10, y: 88}
+      - {x: 9, y: 85}
+      - {x: 9, y: 82}
+      - {x: 10, y: 81}
+      - {x: 16, y: 74}
+      - {x: 24, y: 74}
+      - {x: 27, y: 75}
+      - {x: 27, y: 82}
+      - {x: 22, y: 88}
+    - - {x: 102, y: 77}
+      - {x: 103, y: 74}
+      - {x: 106, y: 74}
+      - {x: 108, y: 76}
+      - {x: 107, y: 79}
+      - {x: 104, y: 79}
+    - - {x: -46, y: 81}
+      - {x: -43, y: 82}
+      - {x: -43, y: 85}
+      - {x: -46, y: 86}
+      - {x: -48, y: 84}
+    - - {x: -18, y: 85}
+      - {x: -18, y: 82}
+      - {x: -14, y: 81}
+      - {x: -9, y: 81}
+      - {x: -8, y: 84}
+      - {x: -9, y: 87}
+      - {x: -14, y: 88}
+    - - {x: 116, y: 110}
+      - {x: 117, y: 108}
+      - {x: 120, y: 108}
+      - {x: 122, y: 110}
+      - {x: 122, y: 115}
+      - {x: 120, y: 117}
+      - {x: 117, y: 115}
+      - {x: 116, y: 113}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

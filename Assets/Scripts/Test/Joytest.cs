@@ -1,8 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Joytest : MonoBehaviour {
+
+	public GameObject firstButton;
+
+	void Start(){
+		if (firstButton != null)
+			EventSystem.current.SetSelectedGameObject (firstButton);
+	}
 
 	// Slap this code onto an object in the scene then press buttons
 	// I recommend you test with 3-4 controllers (different models) for best effect
@@ -15,29 +23,21 @@ public class Joytest : MonoBehaviour {
 	}
 
 	void Update() {
-		DebugLogJoystickButtonPresses();
-	}
 
-	private void DebugLogJoystickButtonPresses() {
-		int joyNum = 1; // start at 1 because unity calls them joystick 1 - 4
-		int buttonNum = 0;
-		int keyCode = 350; // start at joy 1 keycode
+		if (Input.GetAxis ("Vertical") != 0)
+			Debug.Log ("Vertical : " + Input.GetAxis ("Vertical"));
+		if (Input.GetAxis ("Horizontal") != 0)
+			Debug.Log ("Horizontal : " + Input.GetAxis ("Horizontal"));
+		
+		if (Input.GetAxis ("Vertical Arrow") != 0)
+			Debug.Log ("Vertical Arrow : " + Input.GetAxis ("Vertical Arrow"));
+		if (Input.GetAxis ("Horizontal Arrow") != 0)
+			Debug.Log ("Horizontal Arrow : " + Input.GetAxis ("Horizontal Arrow"));
 
-		// log button presses on 3 joysticks (20 button inputs per joystick)
-		// NOTE THAT joystick 4 is not supported via keycodes for some reason, so only polling 1-3
-		for(int i = 0; i < 60; i++) {
-
-			// Log any key press
-			//if(Input.GetKeyDown((keyCode+i)))
-			//	Debug.Log("Pressed! Joystick " + joyNum + " Button " + buttonNum + " @ " + Time.time);
-
-			buttonNum++; // Increment
-
-			// Reset button count when we get to last joy button
-			if(buttonNum == 20) {
-				buttonNum = 0;
-				joyNum++; // next joystick
-			}
-		}
+		if (Input.GetAxis ("Vertical Rotate") != 0)
+			Debug.Log ("Vertical Rotate : " + Input.GetAxis ("Vertical Rotate"));
+		if (Input.GetAxis ("Horizontal Rotate") != 0)
+			Debug.Log ("Horizontal Rotate : " + Input.GetAxis ("Horizontal Rotate"));
+		
 	}
 }
